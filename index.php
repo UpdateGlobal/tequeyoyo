@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head -->
 
     <!-- SITE TITLE -->
-    <title>FoodKing</title>
+    <title>TequeChees</title>
     <meta name="description" content="Food, Restaurant & Cafe HTML Template" />
     <meta name="keywords" content="Food, Restaurant, Cafe, Responsive, HTML5" />
     <meta name="author" content="httpcoder.com" />
@@ -56,7 +56,6 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all" />
 
-
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CCookie"/>
 
@@ -69,7 +68,7 @@
     <link rel="stylesheet" href="assets/libs/datepicker/bootstrap-datetimepicker.min.css" media="all"/>
 
     <!-- MASTER  STYLESHEET  -->
-    <link id="csi-master-style" rel="stylesheet" href="assets/css/style-default.min.css" media="all" />
+    <link id="csi-master-style" rel="stylesheet" href="assets/css/style.css" media="all" />
 
     <!-- MODERNIZER CSS  -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
@@ -86,7 +85,7 @@
 
     <!--HEADER-->
     <header>
-        <div id="csi-header" class="csi-header csi-banner-header">
+        <div id="csi-header" class="csi-header csi-banner-header csi-header-zikzak">
             <div class="header-top">
                 <div class="header-top-inner">
                     <div class="container">
@@ -102,11 +101,11 @@
                             <div class="col-sm-6">
                                 <div class="right-menu">
                                     <ul class="list-inline">
-                                        <li><a href="index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -132,58 +131,18 @@
                                                 </button>
                                                 <div class="csi-logo">
                                                     <a href="index.html">
-                                                        <img src="assets/img/logo.png" alt="Logo"/>
+                                                        <img src="img/logo.png" alt="Logo"/>
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="collapse navbar-collapse">
+                                            <div class="collapse navbar-collapse" >
                                                 <ul class="nav navbar-nav csi-nav">
-                                                    <li class="dropdown">
-                                                        <a href="index.html#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="index.html">Home Default</a></li>
-                                                            <li><a href="home-slider.html">Home Slider</a></li>
-                                                            <li><a href="home-zikzak.html">Home Zikzak</a></li>
-                                                            <li><a href="home-typed.html">Home Typed</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="about.html">About</a></li>
-                                                            <li><a href="speacial.html">Speacial </a></li>
-                                                            <li><a href="menu.html">Menu Items</a></li>
-                                                            <li><a href="reservation.html">Reservation</a></li>
-                                                            <li><a href="contact.html">Contact</a></li>
-                                                            <li class="dropdown-submenu">
-                                                                <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-                                                                <ul class="dropdown-menu">
-                                                                    <li><a href="news-list.html">News List</a></li>
-                                                                    <li><a href="news-single.html">News Single</a></li>
-                                                                    <li class="dropdown-submenu">
-                                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 3 <span class="caret"></span></a>
-                                                                        <ul class="dropdown-menu">
-                                                                            <li><a href="index.html#">Dropdown 3</a></li>
-                                                                            <li><a href="index.html#">Dropdown 3</a></li>
-                                                                        </ul>
-                                                                    </li>
-                                                                </ul>
-                                                            </li>
-                                                            <li><a href="single-item.html">Single Items</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a class="csi-scroll" href="index.html#csi-about">About</a></li>
-                                                    <li><a class="csi-scroll" href="index.html#csi-special">Speacial</a></li>
-                                                    <li><a class="csi-scroll" href="index.html#csi-menu">Menu</a></li>
-                                                    <li class="dropdown">
-                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a href="news-list.html">News List</a></li>
-                                                            <li><a href="news-single.html">News Single</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a class="csi-scroll" href="contact.html">Contact</a></li>
-                                                    <li><a class="csi-btn csi-scroll" href="index.html#csi-reservation">Reservation</a></li>
+                                                    <li><a class="csi-scroll" href="">Inicio</a></li>
+                                                    <li><a class="csi-scroll" href="">Carta</a></li>
+                                                    <li><a class="csi-scroll" href="">Como se hacen</a></li>
+                                                    <li><a class="csi-scroll" href="">Historia</a></li>
+                                                    <li><a class="csi-scroll" href="">Contactos</a></li>
+                                                    <li><a class="csi-btn csi-scroll" href="home-zikzak.html#csi-reservation">Reservation</a></li>
                                                 </ul>
                                             </div>
                                             <!--/.nav-collapse -->
@@ -206,16 +165,16 @@
 
     <!--Banner-->
     <section>
-        <div class="csi-banner">
+        <div class="csi-banner csi-banner-zikzak">
             <div class="csi-banner-style">
                 <div class="csi-inner">
                     <div class="container">
                         <div class="csi-banner-content">
-                            <h3 class="csi-subtitle">Hot & Spicy</h3>
-                            <h2 class="csi-title">Delicious Food</h2>
+                            <h3 class="csi-subtitle tequetext">Tequechees</h3>
+                            <h2 class="csi-title tequetextp">Tequechees</h2>
                             <div class="btn-area">
-                                <a class="csi-btn" href="index.html#csi-reservation">Book A Table</a>
-                                <a class="csi-btn csi-btn-white" href="index.html#csi-menu">Our Menu</a>
+                                <a class="csi-btn" href="home-zikzak.html#csi-reservation">Book A Table</a>
+                                <a class="csi-btn csi-btn-white" href="home-zikzak.html#csi-menu">Our Menu</a>
                             </div>
                         </div>
                     </div>
@@ -228,43 +187,10 @@
     <!--Banner END-->
 
 
-    <!--ABOUT TOP-->
-    <section>
-        <div id="csi-about-top" class="csi-about-top">
-            <div class="csi-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="about-top-single">
-                                <a href="index.html#"><img src="assets/img/about-icon.png" alt="about-icon"></a>
-                                <h3 class="title"><a href="index.html#">Dinner & Dessert</a></h3>
-                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="about-top-single">
-                                <a href="index.html#"><img src="assets/img/about-icon2.png" alt="about-icon"></a>
-                                <h3 class="title"><a href="index.html#">Breakfast</a></h3>
-                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
-                            </div>
-                        </div>
-                        <div class="col-sm-4">
-                            <div class="about-top-single">
-                                <a href="index.html#"><img src="assets/img/about-icon3.png" alt="about-icon"></a>
-                                <h3 class="title"><a href="index.html#">Ice Shakes</a></h3>
-                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
-        </div>
-    </section>
-    <!--ABOUT TOP END-->
 
     <!--ABOUT-->
     <section>
-        <div id="csi-about" class="csi-about">
+        <div id="csi-about" class="csi-about csi-about-zikzak">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -281,7 +207,7 @@
                                 <p class="text">
                                     We provide you with daily self-made bread, sourdough pizza, roasted fish-meat-vegetables and many more. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
                                 </p>
-                                <img src="assets/img/about-bottom.jpg" alt="about team">
+                                <img src="img/about-bottom.jpg" alt="about team">
                             </div>
                         </div>
                     </div>
@@ -291,9 +217,9 @@
     </section>
     <!--ABOUT END-->
 
-    <!--SPECIAL-->
+    <!--SPECIAL
     <section>
-        <div id="csi-special" class="csi-special">
+        <div id="csi-special" class="csi-special csi-special-zikzak">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -309,7 +235,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item1.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -329,12 +255,12 @@
                                             <h3 class="title"><a href="single-item.html">Burger Mexicana</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item2.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -354,12 +280,12 @@
                                             <h3 class="title"><a href="single-item.html">Chocolate Milkshake</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item3.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -379,12 +305,12 @@
                                             <h3 class="title"><a href="single-item.html">Black Bean Burger</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item4.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -404,12 +330,12 @@
                                             <h3 class="title"><a href="single-item.html">Lagrotas Nanos</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item5.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -429,12 +355,12 @@
                                             <h3 class="title"><a href="single-item.html">American Humburger</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item6.jpg" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -454,12 +380,12 @@
                                             <h3 class="title"><a href="single-item.html">Burger Mexicana</a></h3>
                                         </div>
                                     </div>
-                                </div><!--//.csi-special-single-->
+                                </div>
                             </div>
                         </div>
-                    </div><!--//.csi-special-content-->
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
+                    </div>
+                </div>
+            </div><
         </div>
     </section>
     <!--SPECIAL END-->
@@ -483,10 +409,10 @@
 
                             <div class="csi-nav-pills-area">
                                 <ul class="nav nav-pills csi-nav-pills">
-                                    <li class="active"><a data-toggle="pill" href="index.html#home"><img src="assets/img/tab-menu1.png" alt=""> Speacial</a></li>
-                                    <li><a data-toggle="pill" href="index.html#menu1"><img src="assets/img/tab-menu2.png" alt=""> Breakfast</a></li>
-                                    <li><a data-toggle="pill" href="index.html#menu2"><img src="assets/img/tab-menu3.png" alt=""> Lunch</a></li>
-                                    <li><a data-toggle="pill" href="index.html#menu3"><img src="assets/img/tab-menu4.png" alt=""> Dinner</a></li>
+                                    <li class="active"><a data-toggle="pill" href="home-zikzak.html#home"><img src="assets/img/tab-menu1.png" alt=""> Speacial</a></li>
+                                    <li><a data-toggle="pill" href="home-zikzak.html#menu1"><img src="assets/img/tab-menu2.png" alt=""> Breakfast</a></li>
+                                    <li><a data-toggle="pill" href="home-zikzak.html#menu2"><img src="assets/img/tab-menu3.png" alt=""> Lunch</a></li>
+                                    <li><a data-toggle="pill" href="home-zikzak.html#menu3"><img src="assets/img/tab-menu4.png" alt=""> Dinner</a></li>
                                 </ul>
                             </div>
 
@@ -494,144 +420,144 @@
                                 <div id="home" class="tab-pane fade in active">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Chocolate Milkshake</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Caesar Salad</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         70<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Black Bean Burger</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item5.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">American Humburger</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         40<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item6.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Burger Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         40<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
@@ -640,72 +566,72 @@
                                 <div id="menu1" class="tab-pane fade">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item5.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item6.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
@@ -714,36 +640,36 @@
                                 <div id="menu2" class="tab-pane fade">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
@@ -752,43 +678,43 @@
                                 <div id="menu3" class="tab-pane fade">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
+                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
@@ -799,7 +725,7 @@
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
@@ -818,7 +744,7 @@
 
     <!--RESERVATION-->
     <section>
-        <div id="csi-reservation" class="csi-reservation">
+        <div id="csi-reservation" class="csi-reservation csi-reservation-zikzak">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -833,7 +759,7 @@
                         <div class="col-xs-12">
                             <div class="csi-reservaton-area">
                                 <figure>
-                                    <a href="index.html#"><img src="assets/img/reservation.jpg" alt="Special Food"></a>
+                                    <a href="home-zikzak.html#"><img src="assets/img/reservation.jpg" alt="Special Food"></a>
                                     <figcaption>
 
                                         <form id="foodiebooking">
@@ -960,11 +886,11 @@
                         <div class="col-md-6">
                             <div class="csi-video-area">
                                 <figure>
-                                    <a href="index.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
+                                    <a href="home-zikzak.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
                                     <figcaption>
                                         <div class="video-icon">
                                             <div class="csi-vertical">
-                                                <a id="myModalLabel" class="icon" href="index.html#" data-toggle="modal" data-target="#csi-modal">
+                                                <a id="myModalLabel" class="icon" href="home-zikzak.html#" data-toggle="modal" data-target="#csi-modal">
                                                     <i class="fa fa-play" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -1062,7 +988,7 @@
 
     <!--Subscribe-->
     <section>
-        <div id="csi-subscribtion" class="csi-subscribtion">
+        <div id="csi-subscribtion" class="csi-subscribtion csi-subscribtion-zikzak">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -1115,7 +1041,7 @@
                                 <div class="single">
                                     <h3 class="title">Contact</h3>
                                     <p>345 Park Ave, San Jose, CA 95110, United States</p>
-                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="5c35323a331c2533292e3833313d3532723f3331">[email&#160;protected]</a></p>
+                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protected]</a></p>
                                 </div>
                             </div> <!--//.col-->
                             <div class="col-xs-12 col-sm-3">
@@ -1136,11 +1062,11 @@
                                 <div class="single">
                                     <h3 class="title">Social Links</h3>
                                     <ul class="list-inline footer-social">
-                                        <li><a href="index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="index.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li><a href="home-zikzak.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div> <!--//.col-->
@@ -1186,7 +1112,6 @@
 <!-- Owl Carousel  -->
 <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
 
-
 <!-- tweetie feed js  -->
 <script src="tweetie/tweetie.js"></script>
 
@@ -1207,38 +1132,6 @@
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
 
-
-<div class="csi-switcher-loader"> </div><!-- For Demo Purpose Only// Remove From Live -->
-<script src="switcher/js/switcher.js"></script> <!-- For Demo Purpose Only //Remove From Live-->
-
-<script>
-$(function(){
-
-     $('a[href*=#]').click(function() {
-
-     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-         && location.hostname == this.hostname) {
-
-             var $target = $(this.hash);
-
-             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
-
-             if ($target.length) {
-
-                 var targetOffset = $target.offset().top;
-
-                 $('html,body').animate({scrollTop: targetOffset}, 1000);
-
-                 return false;
-
-            }
-
-       }
-
-   });
-
-});
-</script>
 
 </body>
 </html>

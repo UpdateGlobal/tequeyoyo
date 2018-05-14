@@ -56,6 +56,7 @@
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all" />
 
+
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CCookie"/>
 
@@ -85,7 +86,7 @@
 
     <!--HEADER-->
     <header>
-        <div id="csi-header" class="csi-header csi-banner-header csi-header-zikzak">
+        <div id="csi-header" class="csi-header csi-banner-header">
             <div class="header-top">
                 <div class="header-top-inner">
                     <div class="container">
@@ -101,11 +102,11 @@
                             <div class="col-sm-6">
                                 <div class="right-menu">
                                     <ul class="list-inline">
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -138,7 +139,7 @@
                                             <div class="collapse navbar-collapse">
                                                 <ul class="nav navbar-nav csi-nav">
                                                     <li class="dropdown">
-                                                        <a href="home-zikzak.html#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
+                                                        <a href="index.html#" class="dropdown-toggle active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Home <span class="caret"></span></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="index.html">Home Default</a></li>
                                                             <li><a href="home-slider.html">Home Slider</a></li>
@@ -147,7 +148,7 @@
                                                         </ul>
                                                     </li>
                                                     <li class="dropdown">
-                                                        <a href="home-zikzak.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages <span class="caret"></span></a>
+                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">pages <span class="caret"></span></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="about.html">About</a></li>
                                                             <li><a href="speacial.html">Speacial </a></li>
@@ -155,15 +156,15 @@
                                                             <li><a href="reservation.html">Reservation</a></li>
                                                             <li><a href="contact.html">Contact</a></li>
                                                             <li class="dropdown-submenu">
-                                                                <a href="home-zikzak.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                                                                <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
                                                                 <ul class="dropdown-menu">
                                                                     <li><a href="news-list.html">News List</a></li>
                                                                     <li><a href="news-single.html">News Single</a></li>
                                                                     <li class="dropdown-submenu">
-                                                                        <a href="home-zikzak.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 3 <span class="caret"></span></a>
+                                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 3 <span class="caret"></span></a>
                                                                         <ul class="dropdown-menu">
-                                                                            <li><a href="home-zikzak.html#">Dropdown 3</a></li>
-                                                                            <li><a href="home-zikzak.html#">Dropdown 3</a></li>
+                                                                            <li><a href="index.html#">Dropdown 3</a></li>
+                                                                            <li><a href="index.html#">Dropdown 3</a></li>
                                                                         </ul>
                                                                     </li>
                                                                 </ul>
@@ -171,18 +172,18 @@
                                                             <li><a href="single-item.html">Single Items</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a class="csi-scroll" href="home-zikzak.html#csi-about">About</a></li>
-                                                    <li><a class="csi-scroll" href="home-zikzak.html#csi-special">Speacial</a></li>
-                                                    <li><a class="csi-scroll" href="home-zikzak.html#csi-menu">Menu</a></li>
+                                                    <li><a class="csi-scroll" href="index.html#csi-about">About</a></li>
+                                                    <li><a class="csi-scroll" href="index.html#csi-special">Speacial</a></li>
+                                                    <li><a class="csi-scroll" href="index.html#csi-menu">Menu</a></li>
                                                     <li class="dropdown">
-                                                        <a href="home-zikzak.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+                                                        <a href="index.html#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
                                                         <ul class="dropdown-menu">
                                                             <li><a href="news-list.html">News List</a></li>
                                                             <li><a href="news-single.html">News Single</a></li>
                                                         </ul>
                                                     </li>
                                                     <li><a class="csi-scroll" href="contact.html">Contact</a></li>
-                                                    <li><a class="csi-btn csi-scroll" href="home-zikzak.html#csi-reservation">Reservation</a></li>
+                                                    <li><a class="csi-btn csi-scroll" href="index.html#csi-reservation">Reservation</a></li>
                                                 </ul>
                                             </div>
                                             <!--/.nav-collapse -->
@@ -205,16 +206,16 @@
 
     <!--Banner-->
     <section>
-        <div class="csi-banner csi-banner-zikzak">
+        <div class="csi-banner">
             <div class="csi-banner-style">
                 <div class="csi-inner">
                     <div class="container">
                         <div class="csi-banner-content">
                             <h3 class="csi-subtitle">Hot & Spicy</h3>
-                            <h2 class="csi-title">American Chicken</h2>
+                            <h2 class="csi-title">Delicious Food</h2>
                             <div class="btn-area">
-                                <a class="csi-btn" href="home-zikzak.html#csi-reservation">Book A Table</a>
-                                <a class="csi-btn csi-btn-white" href="home-zikzak.html#csi-menu">Our Menu</a>
+                                <a class="csi-btn" href="index.html#csi-reservation">Book A Table</a>
+                                <a class="csi-btn csi-btn-white" href="index.html#csi-menu">Our Menu</a>
                             </div>
                         </div>
                     </div>
@@ -227,10 +228,43 @@
     <!--Banner END-->
 
 
+    <!--ABOUT TOP-->
+    <section>
+        <div id="csi-about-top" class="csi-about-top">
+            <div class="csi-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="about-top-single">
+                                <a href="index.html#"><img src="assets/img/about-icon.png" alt="about-icon"></a>
+                                <h3 class="title"><a href="index.html#">Dinner & Dessert</a></h3>
+                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="about-top-single">
+                                <a href="index.html#"><img src="assets/img/about-icon2.png" alt="about-icon"></a>
+                                <h3 class="title"><a href="index.html#">Breakfast</a></h3>
+                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="about-top-single">
+                                <a href="index.html#"><img src="assets/img/about-icon3.png" alt="about-icon"></a>
+                                <h3 class="title"><a href="index.html#">Ice Shakes</a></h3>
+                                <p>Beetroot water spinach okra water chestnut ricebean pea.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- //.CONTAINER -->
+            </div><!-- //.INNER -->
+        </div>
+    </section>
+    <!--ABOUT TOP END-->
 
     <!--ABOUT-->
     <section>
-        <div id="csi-about" class="csi-about csi-about-zikzak">
+        <div id="csi-about" class="csi-about">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -259,7 +293,7 @@
 
     <!--SPECIAL-->
     <section>
-        <div id="csi-special" class="csi-special csi-special-zikzak">
+        <div id="csi-special" class="csi-special">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -275,7 +309,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item1.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item1.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -300,7 +334,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item2.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item2.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -325,7 +359,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item3.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item3.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -350,7 +384,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item4.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item4.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -375,7 +409,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item5.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item5.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -400,7 +434,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item6.jpg" alt="Special Food"></a>
+                                        <a href="index.html#"><img src="assets/img/speacial-item/special-item6.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -449,10 +483,10 @@
 
                             <div class="csi-nav-pills-area">
                                 <ul class="nav nav-pills csi-nav-pills">
-                                    <li class="active"><a data-toggle="pill" href="home-zikzak.html#home"><img src="assets/img/tab-menu1.png" alt=""> Speacial</a></li>
-                                    <li><a data-toggle="pill" href="home-zikzak.html#menu1"><img src="assets/img/tab-menu2.png" alt=""> Breakfast</a></li>
-                                    <li><a data-toggle="pill" href="home-zikzak.html#menu2"><img src="assets/img/tab-menu3.png" alt=""> Lunch</a></li>
-                                    <li><a data-toggle="pill" href="home-zikzak.html#menu3"><img src="assets/img/tab-menu4.png" alt=""> Dinner</a></li>
+                                    <li class="active"><a data-toggle="pill" href="index.html#home"><img src="assets/img/tab-menu1.png" alt=""> Speacial</a></li>
+                                    <li><a data-toggle="pill" href="index.html#menu1"><img src="assets/img/tab-menu2.png" alt=""> Breakfast</a></li>
+                                    <li><a data-toggle="pill" href="index.html#menu2"><img src="assets/img/tab-menu3.png" alt=""> Lunch</a></li>
+                                    <li><a data-toggle="pill" href="index.html#menu3"><img src="assets/img/tab-menu4.png" alt=""> Dinner</a></li>
                                 </ul>
                             </div>
 
@@ -784,7 +818,7 @@
 
     <!--RESERVATION-->
     <section>
-        <div id="csi-reservation" class="csi-reservation csi-reservation-zikzak">
+        <div id="csi-reservation" class="csi-reservation">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -799,7 +833,7 @@
                         <div class="col-xs-12">
                             <div class="csi-reservaton-area">
                                 <figure>
-                                    <a href="home-zikzak.html#"><img src="assets/img/reservation.jpg" alt="Special Food"></a>
+                                    <a href="index.html#"><img src="assets/img/reservation.jpg" alt="Special Food"></a>
                                     <figcaption>
 
                                         <form id="foodiebooking">
@@ -926,11 +960,11 @@
                         <div class="col-md-6">
                             <div class="csi-video-area">
                                 <figure>
-                                    <a href="home-zikzak.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
+                                    <a href="index.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
                                     <figcaption>
                                         <div class="video-icon">
                                             <div class="csi-vertical">
-                                                <a id="myModalLabel" class="icon" href="home-zikzak.html#" data-toggle="modal" data-target="#csi-modal">
+                                                <a id="myModalLabel" class="icon" href="index.html#" data-toggle="modal" data-target="#csi-modal">
                                                     <i class="fa fa-play" aria-hidden="true"></i>
                                                 </a>
                                             </div>
@@ -1028,7 +1062,7 @@
 
     <!--Subscribe-->
     <section>
-        <div id="csi-subscribtion" class="csi-subscribtion csi-subscribtion-zikzak">
+        <div id="csi-subscribtion" class="csi-subscribtion">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -1081,7 +1115,7 @@
                                 <div class="single">
                                     <h3 class="title">Contact</h3>
                                     <p>345 Park Ave, San Jose, CA 95110, United States</p>
-                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protected]</a></p>
+                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="5c35323a331c2533292e3833313d3532723f3331">[email&#160;protected]</a></p>
                                 </div>
                             </div> <!--//.col-->
                             <div class="col-xs-12 col-sm-3">
@@ -1102,11 +1136,11 @@
                                 <div class="single">
                                     <h3 class="title">Social Links</h3>
                                     <ul class="list-inline footer-social">
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li><a href="index.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div> <!--//.col-->
@@ -1128,6 +1162,8 @@
 
 
 </div> <!--//.csi SITE CONTAINER-->
+
+
 <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
 <!-- JQUERY  -->
 <script data-cfasync="false" src="../../../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
@@ -1152,6 +1188,7 @@
 <!-- Owl Carousel  -->
 <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
 
+
 <!-- tweetie feed js  -->
 <script src="tweetie/tweetie.js"></script>
 
@@ -1173,8 +1210,36 @@
 <script src="assets/js/custom.script.js"></script>
 
 
-<div class="csi-switcher-loader"> </div><!-- For Demo Purpose Only// Remove From Live -->
-<script src="switcher/js/switcher.js"></script> <!-- For Demo Purpose Only //Remove From Live-->
+
+
+<script>
+$(function(){
+
+     $('a[href*=#]').click(function() {
+
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+         && location.hostname == this.hostname) {
+
+             var $target = $(this.hash);
+
+             $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+             if ($target.length) {
+
+                 var targetOffset = $target.offset().top;
+
+                 $('html,body').animate({scrollTop: targetOffset}, 1000);
+
+                 return false;
+
+            }
+
+       }
+
+   });
+
+});
+</script>
 
 </body>
 </html>
