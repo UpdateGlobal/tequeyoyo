@@ -31,11 +31,11 @@ input[type=button]:focus {
 
 @font-face {
     font-family: "tequetextp";
-    src: url('DK_Display_Patrol.otf');
+    src: url('DK_Display_Patrol.otf') format("opentype");
 }
 
 .tequetextp {
-    font-family: "tequetextp";
+    font-family: "tequetextp" !important;
 }
 
 
@@ -261,12 +261,12 @@ blockquote:before {
 
 .csi-heading .subtitle {
     font-family: Lato, sans-serif;
-    font-size: 1.6rem;
+    font-size: 4rem;
     line-height: 2.4000000000000004rem;
-    color: #212739;
+    color: #efcd5a;
     text-transform: uppercase;
     font-weight: 900;
-    margin: 0
+    margin: 0;
 }
 
 .csi-btn,
@@ -276,7 +276,7 @@ blockquote:before {
 
 .csi-btn {
     font-family: Cookie, cursive;
-    background: #e62b4c;
+    background: #e73032;
     padding: .5rem 2.6rem;
     font-weight: 400;
     overflow: hidden;
@@ -291,7 +291,7 @@ blockquote:before {
     font-size: 2.6rem;
     line-height: 3.9000000000000004rem;
     transition-duration: .3s;
-    border: 2px solid #e62b4c
+    border: 2px solid #e73032;
 }
 
 .csi-btn:hover {
@@ -756,7 +756,7 @@ blockquote:before {
 
 .csi-header .csi-navbar .csi-nav li .csi-btn {
     font-family: Cookie, cursive;
-    background: #e62b4c;
+    background: #e73032;
     font-size: 2.6rem;
     line-height: 3.9000000000000004rem;
     margin-top: .3rem;
@@ -770,7 +770,7 @@ blockquote:before {
     margin-left: 1rem;
     text-transform: capitalize;
     font-weight: 400!important;
-    border: 2px solid #e62b4c
+    border: 2px solid #e62b4c;
 }
 
 .csi-header .csi-navbar .csi-nav .active a,
@@ -858,14 +858,14 @@ blockquote:before {
 }
 
 .csi-header .menu-onscroll .csi-navbar .csi-nav li .csi-btn {
-    background: #e62b4c;
+    background: #e73032;
     margin-top: .3rem;
     padding: .3rem 2.4rem;
     -moz-transition-duration: .6s;
     -webkit-transition-duration: .6s;
     -o-transition-duration: .6s;
     transition-duration: .6s;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .csi-header .menu-onscroll .csi-navbar .csi-nav .active a {
@@ -1992,7 +1992,7 @@ blockquote:before {
 }
 
 .csi-menu {
-    background: url("../img/menu-bg.jpg") top center no-repeat fixed;
+    background: url("../img/menu-bg.png") top center no-repeat fixed;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -2002,7 +2002,7 @@ blockquote:before {
 .csi-menu .csi-inner {
     /* background: rgba(255, 255, 255, .9); */
     padding-bottom: 8.4rem;
-    background-color: #e7303270;
+    /* background-color: #e7303270; */
 }
 
 .csi-nav-pills-area {
@@ -2081,14 +2081,14 @@ blockquote:before {
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-thumb a img {
     border-radius: 50%;
-    border: 2rem solid #ddd;
+    border: 2rem solid #e73032;
     -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, .25);
     box-shadow: 0 0 10px rgba(0, 0, 0, .25);
     -moz-transition-duration: .6s;
     -webkit-transition-duration: .6s;
     -o-transition-duration: .6s;
-    transition-duration: .6s
+    transition-duration: .6s;
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content {
@@ -2096,13 +2096,13 @@ blockquote:before {
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area {
-    background: #fff;
+    background: #e73032;
     overflow: hidden;
     padding: 5px 1.5rem 5px 5rem;
     margin-left: -5rem;
     border-radius: 0 50px 50px 0;
     margin-top: 2rem;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area .title {
@@ -2113,7 +2113,7 @@ blockquote:before {
     line-height: 4.3rem;
     font-weight: 400;
     margin: 0;
-    color: #212739
+    color: #fff;
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area .title a {
@@ -2143,7 +2143,8 @@ blockquote:before {
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content .text {
-    opacity: .8
+    opacity: .8;
+    color: #000;
 }
 
 .csi-tab-content .tab-pane .csi-single-tab:hover .menu-content .csi-info .title-area {
@@ -3826,9 +3827,9 @@ textarea.form-control {
 }
 
 .csi-contact .contact-top-area .contact-top-left {
-    background: #e62b4c;
+    background: #e73032;
     padding: 11rem 0 8.4rem;
-    width: 45%
+    width: 45%;
 }
 
 .csi-contact .contact-top-area .contact-top-left blockquote {
@@ -4130,9 +4131,9 @@ textarea.form-control {
     }
     .csi-header-bottom .navbar-default .navbar-collapse,
     .csi-header-bottom .navbar-default .navbar-form {
-        border-color: #212739;
-        background: rgba(33, 39, 57, .85);
-        padding-left: 3rem
+        border-color: #fff;
+        background: rgb(230, 29, 31);
+        padding-left: 3rem;
     }
     .menu-onscroll .navbar-default .navbar-collapse,
     .menu-onscroll .navbar-default .navbar-form {

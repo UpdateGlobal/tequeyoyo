@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head -->
 
     <!-- SITE TITLE -->
-    <title>TequeChees</title>
+    <title>Tequecheese</title>
     <meta name="description" content="Food, Restaurant & Cafe HTML Template" />
     <meta name="keywords" content="Food, Restaurant, Cafe, Responsive, HTML5" />
     <meta name="author" content="httpcoder.com" />
@@ -86,7 +86,7 @@
     <!--HEADER-->
     <header>
         <div id="csi-header" class="csi-header csi-banner-header csi-header-zikzak">
-            <div class="header-top">
+            <div class="header-top hidden-xs">
                 <div class="header-top-inner">
                     <div class="container">
                         <div class="row">
@@ -101,11 +101,7 @@
                             <div class="col-sm-6">
                                 <div class="right-menu">
                                     <ul class="list-inline">
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                        <li><a href="https://www.facebook.com/Tequecheese-Per%C3%BA-233617564063221" target="new"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -129,7 +125,7 @@
                                                     <span class="icon-bar"></span>
                                                     <span class="icon-bar"></span>
                                                 </button>
-                                                <div class="csi-logo">
+                                                <div class="csi-logo hidden-xs">
                                                     <a href="index.html">
                                                         <img src="img/logo.png" alt="Logo"/>
                                                     </a>
@@ -138,9 +134,9 @@
                                             <div class="collapse navbar-collapse" >
                                                 <ul class="nav navbar-nav csi-nav">
                                                     <li><a class="csi-scroll" href="">Inicio</a></li>
+                                                    <li><a class="csi-scroll" href="">Historia</a></li>
                                                     <li><a class="csi-scroll" href="">Carta</a></li>
                                                     <li><a class="csi-scroll" href="">Como se hacen</a></li>
-                                                    <li><a class="csi-scroll" href="">Historia</a></li>
                                                     <li><a class="csi-scroll" href="">Contactos</a></li>
                                                     <li><a class="csi-btn csi-scroll" href="home-zikzak.html#csi-reservation">Reservation</a></li>
                                                 </ul>
@@ -170,17 +166,15 @@
                 <div class="csi-inner">
                     <div class="container">
                         <div class="csi-banner-content">
-                            <h3 class="csi-subtitle tequetext">Tequechees</h3>
-                            <h2 class="csi-title tequetextp">Tequechees</h2>
+                            <h3 class="csi-subtitle tequetext">ABC</h3>
+                            <h2 class="csi-title tequetextp">ABC</h2>
                             <div class="btn-area">
-                                <a class="csi-btn" href="home-zikzak.html#csi-reservation">Book A Table</a>
-                                <a class="csi-btn csi-btn-white" href="home-zikzak.html#csi-menu">Our Menu</a>
+                                <a class="csi-btn" href="">Book A Table</a>
+                                <a class="csi-btn csi-btn-white" href="">Our Menu</a>
                             </div>
                         </div>
                     </div>
-                    <!-- //.container -->
                 </div>
-                <!-- //.INNER -->
             </div>
         </div>
     </section>
@@ -196,8 +190,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="csi-heading">
-                                <h3 class="subtitle">About our History</h3>
-                                <h2 class="title">Welcome to The Foodking</h2>
+                                <h3 class="subtitle">Nuestra Historias</h3>
+                                <h2 class="title">Tequecheese Peru</h2>
                             </div>
                         </div>
                     </div>
@@ -211,8 +205,8 @@
                             </div>
                         </div>
                     </div>
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
+                </div>
+            </div>
         </div>
     </section>
     <!--ABOUT END-->
@@ -235,7 +229,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item1.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -260,7 +254,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item2.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -285,7 +279,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item3.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -310,7 +304,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item4.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -335,7 +329,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item5.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -360,7 +354,7 @@
                             <div class="col-xs-12 col-sm-6 col-md-4">
                                 <div class="csi-special-single">
                                     <figure>
-                                        <a href="home-zikzak.html#"><img src="http://via.placeholder.com/600X600" alt="Special Food"></a>
+                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item6.jpg" alt="Special Food"></a>
                                         <figcaption>
                                             <div class="csi-hover-link">
                                                 <div class="csi-vertical">
@@ -385,10 +379,10 @@
                         </div>
                     </div>
                 </div>
-            </div><
+            </div>
         </div>
     </section>
-    <!--SPECIAL END-->
+    SPECIAL END-->
 
 
     <!--MENU ITEMS-->
@@ -420,301 +414,61 @@
                                 <div id="home" class="tab-pane fade in active">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Chocolate Milkshake</a></h3>
                                                     <p class="price">
                                                         150<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
+                                                    <h3 class="title"><a href="single-item.html">Caesar Salad</a></h3>
                                                     <p class="price">
                                                         70<span>$</span>
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
                                     </div><!--//.csi-single-tab-->
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        40<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        40<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                </div>
-                                <div id="menu1" class="tab-pane fade">
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                </div>
-                                <div id="menu2" class="tab-pane fade">
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                </div>
-                                <div id="menu3" class="tab-pane fade">
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
-                                        </div>
-                                        <div class="menu-content">
-                                            <div class="csi-info">
-                                                <div class="title-area">
-                                                    <h3 class="title"><a href="single-item.html">Loren Ipsum</a></h3>
-                                                    <p class="price">
-                                                        150<span>$</span>
-                                                    </p>
-                                                </div>
-                                                <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
-                                                </p>
-                                            </div> <!--//.single tab-->
-                                        </div>
-                                    </div><!--//.csi-single-tab-->
-                                    <div class="csi-single-tab">
-                                        <div class="menu-thumb">
-                                            <a href="single-item.html"><img src="http://via.placeholder.com/600X600" alt=""></a>
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
                                         </div>
                                         <div class="menu-content">
                                             <div class="csi-info">
@@ -725,7 +479,247 @@
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item5.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">American Humburger</a></h3>
+                                                    <p class="price">
+                                                        40<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item6.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Burger Mexicana</a></h3>
+                                                    <p class="price">
+                                                        40<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                </div>
+                                <div id="menu1" class="tab-pane fade">
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item5.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item6.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                </div>
+                                <div id="menu2" class="tab-pane fade">
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item2.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                </div>
+                                <div id="menu3" class="tab-pane fade">
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item3.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item1.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Pizza Mexicana</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> <!--//.single tab-->
+                                        </div>
+                                    </div><!--//.csi-single-tab-->
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="single-item.html"><img src="assets/img/speacial-item/special-item4.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="single-item.html">Black Bean Burger</a></h3>
+                                                    <p class="price">
+                                                        150<span>$</span>
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
                                             </div> <!--//.single tab-->
                                         </div>
@@ -740,93 +734,6 @@
         </div>
     </section>
     <!--MENU ITEMS END-->
-
-
-    <!--RESERVATION-->
-    <section>
-        <div id="csi-reservation" class="csi-reservation csi-reservation-zikzak">
-            <div class="csi-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="csi-heading">
-                                <h3 class="subtitle">Book A Table New</h3>
-                                <h2 class="title">Foodking Reservation</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="csi-reservaton-area">
-                                <figure>
-                                    <a href="home-zikzak.html#"><img src="assets/img/reservation.jpg" alt="Special Food"></a>
-                                    <figcaption>
-
-                                        <form id="foodiebooking">
-                                            <div class="form-group  csi-form-left">
-                                                <input class="form-control" name="fb_name" id="foodiebooking_name" placeholder="Enter Your Name" aria-required="true" type="text">
-                                            </div>
-                                            <div class="form-group csi-form-right">
-                                                <input class="form-control" name="fb_email" id="foodiebooking_email" placeholder="Email Address" aria-required="true" type="email">
-                                            </div>
-                                            <div class="form-group csi-form-left">
-                                                <input class="form-control" name="fb_phone" id="foodiebooking_phone" placeholder="Telephone Number" type="text">
-                                            </div>
-                                            <div class="form-group csi-form-right">
-                                                <select class="form-control" name="fb_person" id="foodiebooking_person" aria-required="true">
-                                                    <option value="">Number of Guests</option>
-                                                    <option value="1">1</option>
-                                                    <option value="2">2</option>
-                                                    <option value="3">3</option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="8">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="more">More than 10</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group csi-form-full csi-form-left">
-                                                <div class="input-group date" id="datetimepicker2">
-                                                    <input name="fb_date" id="foodiebooking_date" class="form-control" placeholder="Date format ( mm-dd-yyyy )." aria-required="true" type="text">
-                                                    <span class="input-group-addon">
-                                                        <span class="glyphicon glyphicon-calendar"></span>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                            <div class="form-group csi-form-right">
-                                                <select class="form-control" name="fb_time" id="foodiebooking_time" aria-required="true">
-                                                    <option value="">Time</option>
-                                                    <option value="1">Breakfast</option>
-                                                    <option value="2">Lunch</option>
-                                                    <option value="3">Dinner</option>
-                                                </select>
-                                            </div>
-                                            <div class="csi-form-group">
-                                                <input id="fb_submit" class="csi-btn csi-submit" value="Booking Submit" type="submit">
-                                            </div>
-                                        </form>
-                                    </figcaption>
-                                </figure>
-                                <div class="call-phone">
-                                    <h4 class="title">Or Call Now</h4>
-                                    <ul class="list-inline">
-                                        <li>+12345 678 555</li>
-                                        <li>+12345 678 556</li>
-                                        <li>+12345 678 557</li>
-                                    </ul>
-                                </div>
-                            </div> <!--//.reservaton-area-->
-                        </div>
-                    </div>
-
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
-        </div>
-    </section>
-    <!--RESERVATION END-->
 
 
     <!--MILESTONE-->
@@ -920,7 +827,7 @@
     <!--MILESTONE END-->
 
 
-    <!--FEEDBACK-->
+    <!--FEEDBACK-
     <section>
         <div id="csi-feedback" class="csi-feedback">
             <div class="csi-feedback-bg">
@@ -942,7 +849,7 @@
                                         </p>
                                         <h4 class="csi-client-name">Jonathon Doe</h4>
                                     </div>
-                                </div> <!--//.Item-->
+                                </div> 
                                 <div class="item">
                                     <figure class="csi-client-image">
                                         <img src="assets/img/client1.jpg" alt="testpersion1"/>
@@ -953,7 +860,7 @@
                                         </p>
                                         <h4 class="csi-client-name">Jonathon Roy</h4>
                                     </div>
-                                </div> <!--//.Item-->
+                                </div> 
                                 <div class="item">
                                     <figure class="csi-client-image">
                                         <img src="assets/img/client1.jpg" alt="testpersion1"/>
@@ -964,21 +871,21 @@
                                         </p>
                                         <h4 class="csi-client-name">Jonathon Islam</h4>
                                     </div>
-                                </div> <!--//.Item-->
-                            </div><!--l//#csi-OWL TESTIMONIAL-->
+                                </div> 
+                            </div>
                         </div>
                     </div>
-                </div> <!--//.Testimonials-->
+                </div> <
                 <div class="csi-twitter-feedback">
                     <div class="feedback-inner">
                         <div class="csi-heading">
                             <h2>Latest Twitter Updates</h2>
                         </div>
                         <div class="csi-feed-display">
-                            <div class="csi-tweet-feed" id="tweetiefeed"></div> <!--//FEED-->
+                            <div class="csi-tweet-feed" id="tweetiefeed"></div>
                         </div>
                     </div>
-                </div> <!--//.Testimonials-->
+                </div> 
             </div>
 
         </div>
@@ -986,41 +893,82 @@
     <!--FEEDBACK END-->
 
 
-    <!--Subscribe-->
+    <!--Contacto-->
     <section>
-        <div id="csi-subscribtion" class="csi-subscribtion csi-subscribtion-zikzak">
+        <div id="csi-contact" class="csi-contact">
             <div class="csi-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="csi-heading">
-                                <h3 class="subtitle">Join Our Mailing List!</h3>
-                                <h2 class="title">Subscribe Our Newsletter</h2>
+                <div class="contact-top-area">
+                    <div class="contact-top-left">
+                        <div class="contact-info">
+                            <div class="csi-box">
+                                <span class="csi-icon"><i class="fa fa-headphones"></i></span>
+                                <div class="address">
+                                    <p>+2545-8546-XXX</p>
+                                    <p>+2545-8546-XXX</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                            <div class="csi-subscribe-area">
-                                <p class="text">If you want to receive the latest news,<br> please subscribe us.</p>
-                                <div class="subscribe-form">
-                                    <form class="subscribe-form-action csi-subscribe-form" action="#">
-                                        <div class="form-group csi-subscribe-input">
-                                            <input type="email" id="subscribe" class="csi-input csi-input-form form-control" required="required" placeholder="Enter Email Address ...">
-                                        </div>
-                                        <div class="form-group csi-subscribe-btn">
-                                            <button class="csi-btn csi-submit csi-submit-btn" name="csi-submit" type="submit">Subscribe <i class="fa fa-paper-plane"></i></button>
-                                        </div>
-                                    </form>
+                            <div class="csi-box">
+                                <span class="csi-icon"><i class="fa fa-envelope"></i></span>
+                                <div class="address">
+                                    <p>Email:<a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="caa0a2a5a4e4aea5af8aafb2aba7baa6afe4a9a5a7">[email&nbsp;protected]</a></p>
+                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="7c16141312521813193c19041d110c10194e521f1311">[email&nbsp;protected]</a></p>
+                                </div>
+                            </div>
+                            <div class="csi-box">
+                                <span class="csi-icon"><i class="fa fa-map-marker"></i></span>
+                                <div class="address">
+                                    <p>123 Grand Tower - 45 Street Name,
+                                        City Name, United State</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="contact-top-right">
+                        <div class="innerpage-section">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-offset-2 col-sm-8">
+                            <form method="POST" class="csi-contactform" action="php/form-handler.php" novalidate="novalidate">
+                                <div class="form-group">
+                                    <input type="text" name="csiname" class="form-control csiname" id="csiname" placeholder="Nombre" required="" aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="csiemail" class="form-control csiemail" id="csiemail" placeholder="Email" required="" aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="csisubject" class="form-control csisubject" id="csisubject" placeholder="Titulo" required="" aria-required="true">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control csimessage" name="csimessage" id="csimessage" rows="5" placeholder="Escribenos" required="" aria-required="true"></textarea>
+                                </div>
+                                <button type="submit" name="submit" value="contact-form" class="csi-btn hvr-glow hvr-radial-out csisend csi-send">Enviar Mensaje</button>
+                            </form>
+                            <!-- MODAL SECTION -->
+                            <div id="csi-form-modal" class="modal fade csi-form-modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content csi-modal-content">
+                                        <div class="modal-header csi-modal-header">
+                                            <button type="button" class="close brand-color-hover" data-dismiss="modal" aria-label="Close">
+                                                <i class="fa fa-power-off"></i>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="alert csi-form-msg" role="alert"></div>
+                                        </div> <!--//MODAL BODY-->
+                                    </div>
+                                </div>
+                            </div> <!-- //MODAL -->
+                        </div> <!--//.COL-->
                     </div>
                 </div><!-- //.CONTAINER -->
             </div><!-- //.INNER -->
         </div>
     </section>
-    <!--Subscribe END-->
+    <!--Contacto END-->
     
 
 
