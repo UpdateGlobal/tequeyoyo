@@ -253,9 +253,9 @@ blockquote:before {
 
 .csi-heading .title {
     font-family: Cookie, cursive;
-    font-size: 6.8rem;
-    color: #efcd5a;
-    margin: 0;
+    font-size: 10rem;
+    color: #fff;
+    margin: 15px;
     line-height: 8rem;
 }
 
@@ -739,13 +739,13 @@ blockquote:before {
 }
 
 .csi-header .csi-navbar .csi-nav li a {
-    color: #fff;
-    font-family: Lato, sans-serif;
-    font-size: 1.6rem;
+    color: #efcd5a;
+    font-family: tequetextp;
+    font-size: 2.5rem;
     line-height: 2.4000000000000004rem;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 16px 11px
+    padding: 16px 11px;
 }
 
 .csi-header .csi-navbar .csi-nav li a:hover {
@@ -783,7 +783,7 @@ blockquote:before {
     -webkit-animation-name: fadeInRight;
     animation-name: fadeInRight;
     transform-origin: center;
-    margin-top: .8rem
+    margin-top: -20px;
 }
 
 .csi-header .csi-navbar .csi-logo a img {
@@ -1090,7 +1090,7 @@ blockquote:before {
 
 .csi-banner-content .csi-subtitle {
     font-family: Cookie, cursive;
-    font-size: 11rem;
+    font-size: 15rem;
     font-weight: 400;
     line-height: 13rem;
     margin: 0;
@@ -1992,7 +1992,7 @@ blockquote:before {
 }
 
 .csi-menu {
-    background: url("../img/menu-bg.png") top center no-repeat fixed;
+    background: url("../../img/brochure-05.jpeg") top center no-repeat fixed;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -2017,8 +2017,8 @@ blockquote:before {
 .csi-nav-pills-area .csi-nav-pills li>a {
     font-family: Cookie, cursive;
     padding: 0 15px;
-    color: #efcd5a;
-    font-size: 2.6rem;
+    color: #e83133;
+    font-size: 40px;
     line-height: 3.9000000000000004rem;
     border: 2px solid transparent;
 }
@@ -2035,9 +2035,9 @@ blockquote:before {
 .csi-nav-pills-area .csi-nav-pills li.active>a,
 .csi-nav-pills-area .csi-nav-pills li.active>a:focus,
 .csi-nav-pills-area .csi-nav-pills li.active>a:hover {
-    color: #efcd5a;
+    color: #e83133;
     background-color: transparent;
-    border: 2px solid #efcd5a;
+    border: 2px solid #e83133;
 }
 
 .csi-nav-pills-area .csi-nav-pills li.active>a img,
@@ -3256,7 +3256,7 @@ blockquote:before {
 }
 
 .csi-footer {
-    background: url("../img/footer-bg.jpg") bottom center no-repeat;
+    background: url("../../img/footer.jpeg") bottom center no-repeat;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -3265,8 +3265,8 @@ blockquote:before {
 }
 
 .csi-footer .csi-inner {
-    background: rgba(33, 39, 57, .95);
-    padding-bottom: 0
+    background: rgba(12, 5, 5, 0.4);
+    padding-bottom: 0;
 }
 
 .csi-footer .single p {
@@ -3827,7 +3827,7 @@ textarea.form-control {
 }
 
 .csi-contact .contact-top-area .contact-top-left {
-    background: #e73032;
+    background: #efcd5a;
     padding: 11rem 0 8.4rem;
     width: 45%;
 }
@@ -3854,8 +3854,8 @@ textarea.form-control {
 
 .csi-contact .contact-top-area .contact-top-left .contact-info .csi-box .csi-icon i {
     font-size: 26px;
-    color: #fff;
-    line-height: 43px
+    color: #e73032;
+    line-height: 43px;
 }
 
 .csi-contact .contact-top-area .contact-top-left .contact-info .csi-box .address {
@@ -3866,9 +3866,9 @@ textarea.form-control {
     font-family: Lato, sans-serif;
     font-size: 1.6rem;
     line-height: 2.4000000000000004rem;
-    color: #fff;
+    color: #e73032;
     font-weight: 400;
-    margin: 0
+    margin: 0;
 }
 
 .csi-contact .contact-top-area .contact-top-right {
@@ -4177,7 +4177,7 @@ textarea.form-control {
         margin: 0 0 1rem
     }
     .csi-banner .csi-inner {
-        padding: 11rem 0 7rem
+        padding: auto 0 auto;
     }
     .csi-banner-content .btn-area .csi-btn {
         padding: .6rem 3rem
