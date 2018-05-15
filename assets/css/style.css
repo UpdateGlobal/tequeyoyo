@@ -1147,8 +1147,18 @@ blockquote:before {
 }
 
 .csi-banner-zikzak {
-    background: url("../img/zikzak-bg.jpg") top center no-repeat
+    background: url("../img/zikzak-bg.jpg") top center no-repeat;
+/*    width: 1600px;
+    -webkit-transition: width 2s;  For Safari 3.1 to 6.0 
+    transition: width 2s;*/
 }
+
+/*.csi-banner-zikzak:hover {
+    background: url("../img/zikzak-bg.jpg") top center no-repeat;
+    width: 180rem;
+}
+*/
+
 
 .csi-slider {
     color: #fff;
@@ -2300,15 +2310,15 @@ blockquote:before {
 }
 
 .csi-milestone-about {
-    background: url("../img/milestone-bg.jpg") top center no-repeat fixed;
+    /* background: url("../img/milestone-bg.jpg") top center no-repeat fixed; */
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover
+    background-size: cover;
 }
 
 .csi-milestone-about .csi-inner {
-    background: rgba(33, 39, 57, .9)
+    background: rgb(231, 48, 50);
 }
 
 .csi-milestone .csi-counter-area {
@@ -3295,7 +3305,7 @@ blockquote:before {
 }
 
 .csi-footer .footer-top-area .footer-social li a {
-    background: #212739;
+    background: #e73032;
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -3303,7 +3313,7 @@ blockquote:before {
     -moz-transition-duration: .6s;
     -webkit-transition-duration: .6s;
     -o-transition-duration: .6s;
-    transition-duration: .6s
+    transition-duration: .6s;
 }
 
 .csi-footer .footer-top-area .footer-social li a i {
@@ -3317,7 +3327,7 @@ blockquote:before {
 
 .csi-footer .footer-top-area .footer-social li a .fa-facebook-f,
 .csi-footer .footer-top-area .footer-social li a .facebook-f {
-    color: #3b5998
+    color: #f9f9f9;
 }
 
 .csi-footer .footer-top-area .footer-social li a .fa-linkedin {
@@ -3350,18 +3360,17 @@ blockquote:before {
 }
 
 .csi-footer .footer-top-area .single p {
-    color: #999
+    color: #fff;
+    font-size: 24px;
 }
 
 .csi-footer .footer-top-area .single .title {
-    font-family: Cookie, cursive;
-    font-size: 42px;
     font-size: 4.2rem;
     font-weight: 400;
     margin-bottom: 2.6rem;
-    color: #fff;
+    color: #efcd5a;
     letter-spacing: .08rem;
-    opacity: .7
+    opacity: .7;
 }
 
 .csi-footer .footer-top-area .single .title i {
@@ -3371,8 +3380,8 @@ blockquote:before {
 .csi-footer .csi-footer-bottom {
     font-family: Lato, sans-serif;
     padding: 2.6rem 0;
-    background: #e62b4c;
-    margin-top: 11rem
+    background: #e73032;
+    margin-top: 11rem;
 }
 
 .single .csi-news-single footer,
@@ -4366,11 +4375,12 @@ textarea.form-control {
         padding-right: 0
     }
     .csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area {
-        padding: 0;
+        padding: 10px;
         margin-left: 0;
         border-radius: 50px;
-        background: 0 0;
-        margin-top: 1rem
+        /* background: 0 0; */
+        margin-top: 1rem;
+        color: red;
     }
     .csi-tab-content .tab-pane .csi-single-tab .menu-content {
         width: 100%

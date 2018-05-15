@@ -138,7 +138,7 @@
                                                     <li><a class="csi-scroll" href="">Carta</a></li>
                                                     <li><a class="csi-scroll" href="">Como se hacen</a></li>
                                                     <li><a class="csi-scroll" href="">Contactos</a></li>
-                                                    <li><a class="csi-btn csi-scroll" href="home-zikzak.html#csi-reservation">Pedidos</a></li>
+                                                    <li><a class="csi-btn csi-scroll" href="#pedidos">Pedidos</a></li>
                                                 </ul>
                                             </div>
                                             <!--/.nav-collapse -->
@@ -211,180 +211,6 @@
     </section>
     <!--ABOUT END-->
 
-    <!--SPECIAL
-    <section>
-        <div id="csi-special" class="csi-special csi-special-zikzak">
-            <div class="csi-inner">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="csi-heading">
-                                <h3 class="subtitle">Special Food Items</h3>
-                                <h2 class="title">Chef Selection</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="csi-special-content">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item1.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">Mexican Food</h4>
-                                            <h3 class="title"><a href="#!">Burger Mexicana</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item2.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">Italian Food</h4>
-                                            <h3 class="title"><a href="#!">Chocolate Milkshake</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item3.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">Mexican Food</h4>
-                                            <h3 class="title"><a href="#!">Black Bean Burger</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item4.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">Indian Food</h4>
-                                            <h3 class="title"><a href="#!">Lagrotas Nanos</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item5.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">American Food</h4>
-                                            <h3 class="title"><a href="#!">American Humburger</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 col-md-4">
-                                <div class="csi-special-single">
-                                    <figure>
-                                        <a href="home-zikzak.html#"><img src="assets/img/speacial-item/special-item6.jpg" alt="Special Food"></a>
-                                        <figcaption>
-                                            <div class="csi-hover-link">
-                                                <div class="csi-vertical">
-                                                    <a href="#!">
-                                                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </figcaption>
-                                    </figure>
-                                    <div class="single-info">
-                                        <div class="price-area">
-                                            <h3 class="price">558 <span>S/</span></h3>
-                                        </div>
-                                        <div class="speacial-info">
-                                            <h4 class="subtitle">Mexican Food</h4>
-                                            <h3 class="title"><a href="#!">Burger Mexicana</a></h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    SPECIAL END-->
-
-
     <!--MENU ITEMS-->
     <section>
         <div id="csi-menu" class="csi-menu">
@@ -426,9 +252,9 @@
                                                 <p class="text">
                                                     With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/tequenos600x600.jpg" alt=""></a>
@@ -444,9 +270,9 @@
                                                 <p class="text">
                                                     With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/tequenos600x600.jpg" alt=""></a>
@@ -462,9 +288,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/tequenos600x600.jpg" alt=""></a>
@@ -480,11 +306,15 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                 </div>
-                                <!--############################################################-->
+
+
+
+
+
                                 <div id="menu1" class="tab-pane fade">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
@@ -501,9 +331,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/salsaajo.jpeg" alt=""></a>
@@ -519,9 +349,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/salsaajo.jpeg" alt=""></a>
@@ -537,9 +367,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/salsaajo.jpeg" alt=""></a>
@@ -555,9 +385,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                 </div>
 
 
@@ -578,9 +408,9 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/pachi.jpg" alt=""></a>
@@ -596,22 +426,22 @@
                                                 <p class="text">
                                                     Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
-                                            </div> <!--//.single tab-->
+                                            </div> 
                                         </div>
-                                    </div><!--//.csi-single-tab-->
+                                    </div>
                                 </div>
                             </div>
 
                         </div>
                     </div>
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
+                </div>
+            </div>
         </div>
     </section>
     <!--MENU ITEMS END-->
 
 
-    <!--MILESTONE
+    <!--MILESTONE-->
     <section>
         <div id="csi-milestone-about" class="csi-milestone-about">
             <div class="csi-inner">
@@ -623,6 +453,7 @@
                                     <div class="milestone-inner">
                                         <div class="csi-content">
                                             <div class="row">
+                                                <h3 class="tequetext" style="font-size: 58px;text-align: center;">Ingredientes</h3>
                                                 <div class="col-sm-6">
                                                     <div class="csi-counter-area">
                                                         <img src="assets/img/milestone-icon1.png" alt="milestone icon">
@@ -666,6 +497,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <h3 class="tequetext" style="font-size: 58px;text-align: center;">Como se hacen</h3>
                             <div class="csi-video-area">
                                 <figure>
                                     <a href="home-zikzak.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
@@ -701,76 +533,9 @@
     </section>
     <!--MILESTONE END-->
 
-
-    <!--FEEDBACK-
-    <section>
-        <div id="csi-feedback" class="csi-feedback">
-            <div class="csi-feedback-bg">
-                <div class="csi-testi-feedback">
-                    <div class="feedback-inner-bg">
-                        <div class="feedback-inner">
-                            <div class="csi-heading">
-                                <h2>Our Client Feedbacks</h2>
-                            </div>
-                            <div id="csi-owltestimonial" class="owl-carousel csi-owltestimonial">
-
-                                <div class="item">
-                                    <figure class="csi-client-image">
-                                        <img src="assets/img/client1.jpg" alt="testpersion1"/>
-                                    </figure>
-                                    <div class="testi-info-area">
-                                        <p class="csi-review">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                        </p>
-                                        <h4 class="csi-client-name">Jonathon Doe</h4>
-                                    </div>
-                                </div> 
-                                <div class="item">
-                                    <figure class="csi-client-image">
-                                        <img src="assets/img/client1.jpg" alt="testpersion1"/>
-                                    </figure>
-                                    <div class="testi-info-area">
-                                        <p class="csi-review">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                        </p>
-                                        <h4 class="csi-client-name">Jonathon Roy</h4>
-                                    </div>
-                                </div> 
-                                <div class="item">
-                                    <figure class="csi-client-image">
-                                        <img src="assets/img/client1.jpg" alt="testpersion1"/>
-                                    </figure>
-                                    <div class="testi-info-area">
-                                        <p class="csi-review">
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-                                        </p>
-                                        <h4 class="csi-client-name">Jonathon Islam</h4>
-                                    </div>
-                                </div> 
-                            </div>
-                        </div>
-                    </div>
-                </div> <
-                <div class="csi-twitter-feedback">
-                    <div class="feedback-inner">
-                        <div class="csi-heading">
-                            <h2>Latest Twitter Updates</h2>
-                        </div>
-                        <div class="csi-feed-display">
-                            <div class="csi-tweet-feed" id="tweetiefeed"></div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
-
-        </div>
-    </section>
-    <!--FEEDBACK END-->
-
-
     <!--Contacto-->
     <section>
-        <div id="csi-contact" class="csi-contact">
+        <div id="csi-contact" class="csi-contact" >
             <div class="csi-inner">
                 <div class="contact-top-area">
                     <div class="contact-top-left">
@@ -798,15 +563,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contact-top-right">
+                    <div class="contact-top-right" id="pedidos">
                         <div class="innerpage-section">
                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" >
                     <div class="row">
-                        <div class="col-sm-offset-2 col-sm-8">
+                        <div class="col-sm-offset-2 col-sm-8" align="center">
+                            <h2 class="tequetext" style="color: #e61d1f; font-size: 72px;">Cont<span style="color:#efcd5a;">act</span>anos</h2>
+
                             <form method="POST" class="csi-contactform" action="php/form-handler.php" novalidate="novalidate">
                                 <div class="form-group">
                                     <input type="text" name="csiname" class="form-control csiname" id="csiname" placeholder="Nombre" required="" aria-required="true">
@@ -820,9 +587,9 @@
                                 <div class="form-group">
                                     <textarea class="form-control csimessage" name="csimessage" id="csimessage" rows="5" placeholder="Escribenos" required="" aria-required="true"></textarea>
                                 </div>
-                                <button type="submit" name="submit" value="contact-form" class="csi-btn hvr-glow hvr-radial-out csisend csi-send">Enviar Mensaje</button>
+                                <button type="submit" name="submit" value="contact-form" class="csi-btn hvr-glow hvr-radial-out csisend csi-send tequetext">Enviar Mensaje</button>
                             </form>
-                            <!-- MODAL SECTION -->
+
                             <div id="csi-form-modal" class="modal fade csi-form-modal" tabindex="-1" role="dialog" aria-hidden="true">
                                 <div class="modal-dialog modal-lg">
                                     <div class="modal-content csi-modal-content">
@@ -833,19 +600,18 @@
                                         </div>
                                         <div class="modal-body">
                                             <div class="alert csi-form-msg" role="alert"></div>
-                                        </div> <!--//MODAL BODY-->
+                                        </div>
                                     </div>
                                 </div>
-                            </div> <!-- //MODAL -->
-                        </div> <!--//.COL-->
+                            </div> 
+                        </div> 
                     </div>
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
+                </div>
+            </div>
         </div>
     </section>
     <!--Contacto END-->
     
-
 
     <footer>
         <div id="csi-footer" class="csi-footer">
@@ -855,44 +621,40 @@
                         <div class="row">
                             <div class="col-xs-12">
                                 <div class="footer-top">
-                                    <a class="footer-logo" href="index.html"><img src="assets/img/logo.png" alt="logo"/></a>
+                                    <a class="footer-logo" href="index.html"><img src="img/logo.png" width="200" alt="logo"/></a>
                                 </div>
                             </div>
                         </div><!--//.ROW-->
                         <div class="row">
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title">Contact</h3>
-                                    <p>345 Park Ave, San Jose, CA 95110, United States</p>
+                                    <h3 class="title tequetextp">Contact</h3>
+                                    <p class="tequetext">345 Park Ave, San Jose, CA 95110, United States</p>
                                     <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protected]</a></p>
                                 </div>
                             </div> <!--//.col-->
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title">Book A Table</h3>
-                                    <p>pellentesque vehicula. Aliquam turpis justo, mattis id neque</p>
-                                    <p>Mobile: +778529600</p>
+                                    <h3 class="title tequetextp">Book A Table</h3>
+                                    <p class="tequetext">pellentesque vehicula. Aliquam turpis justo, mattis id neque</p>
+                                    <p class="tequetext">Mobile: +778529600</p>
                                 </div>
                             </div> <!--//.col-->
-                            <div class="col-xs-12 col-sm-3">
+                            <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title">Opening Time</h3>
-                                    <p>Mon - Thu 11:30 - 22:00 clock </p>
-                                    <p>Fri - Sat 11:30 - 24:00 clock </p>
+                                    <h3 class="title tequetextp">Opening Time</h3>
+                                    <p class="tequetext">Mon - Thu 11:30 - 22:00 clock </p>
+                                    <p class="tequetext">Fri - Sat 11:30 - 24:00 clock </p>
                                 </div>
                             </div> <!--//.col-->
-                            <div class="col-xs-12 col-sm-3">
+                        <!--//    <div class="col-xs-12 col-sm-3">
                                 <div class="single">
-                                    <h3 class="title">Social Links</h3>
+                                    <h3 class="title tequetextp">Social Links</h3>
                                     <ul class="list-inline footer-social">
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                                         <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
-                            </div> <!--//.col-->
+                            </div> .col-->
                         </div> <!--//.main row-->
                     </div><!-- //.CONTAINER -->
                 </div>
@@ -900,7 +662,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <p>FoodKing is proudly powered by <a href="https://www.httpcoder.com/">HttpCoder</a> | <i class="fa fa-copyright" aria-hidden="true"></i> 2017 all rights reserved by <a href="http://csinfotechbd.com/">CSInfotech</a></p>
+                                <p>TequeCheese <i class="fa fa-copyright" aria-hidden="true"></i> - Peru  |  2018 all rights reserved by Update.pe</p>
                             </div>
                         </div><!--//.ROW-->
                     </div><!-- //.CONTAINER -->
