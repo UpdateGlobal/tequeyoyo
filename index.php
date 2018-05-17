@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -72,6 +72,84 @@
 
     <!-- MODERNIZER CSS  -->
     <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    
+<style type="text/css">
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #e71e20; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 60px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 51px;
+    color: #efcd5a;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: 3px;
+    line-height: 42px;
+    font-family: "tequetextp";
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.burge{
+    margin-top: 20px;
+    padding-right: 40px;
+}
+
+.topo{
+
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+
+}
+
+
+.fimenu{
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+</style>
+
 
 </head>
 <body class="home">
@@ -83,95 +161,102 @@
 <div class="csi-container ">
     <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
 
-    <!--HEADER-->
-    <header>
-        <div id="csi-header" class="csi-header csi-banner-header csi-header-zikzak">
-            <div class="header-top hidden-xs">
-                <div class="header-top-inner">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="contact">
-                                    <ul class="list-inline">
-                                        <li class="tequetextp"><i class="fa fa-clock-o" aria-hidden="true"></i> Horarios:  8.00AM - 18.00PM</li>
-                                        <li class="tequetextp"><i class="fa fa-phone" aria-hidden="true"></i> Call Us:   (+1) 555 234-8765 </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="right-menu">
-                                    <ul class="list-inline">
-                                        <li><a href="https://www.facebook.com/Tequecheese-Per%C3%BA-233617564063221" target="new"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> <!--//.header-top-->
-            <div class="csi-header-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <nav class="navbar navbar-default csi-navbar">
-                                <div class="container">
-                                    <nav class="navbar navbar-default csi-navbar">
-                                        <div class="csicontainer">
-                                            <div class="navbar-header">
-                                                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                                                        data-target=".navbar-collapse">
-                                                    <span class="sr-only">Toggle navigation</span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                    <span class="icon-bar"></span>
-                                                </button>
-                                                <div class="csi-logo hidden-xs">
-                                                    <a href="index.html">
-                                                        <img src="img/logo.png" alt="Logo"/>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <div class="collapse navbar-collapse" >
-                                                <ul class="nav navbar-nav csi-nav">
-                                                    <li><a class="csi-scroll" href="">Inicio</a></li>
-                                                    <li><a class="csi-scroll" href="">Historia</a></li>
-                                                    <li><a class="csi-scroll" href="">Carta</a></li>
-                                                    <li><a class="csi-scroll" href="">Como se hacen</a></li>
-                                                    <li><a class="csi-scroll" href="">Contactos</a></li>
-                                                    <li><a class="csi-btn csi-scroll" href="#pedidos">Pedidos</a></li>
-                                                </ul>
-                                            </div>
-                                            <!--/.nav-collapse -->
-                                        </div>
-                                    </nav>
-                                </div>
-                                <!-- /.container -->
-                            </nav>
-                        </div>
-                    </div>
-                    <!--//.ROW-->
-                </div>
-                <!-- //.CONTAINER -->
-            </div>
-            <!-- //.INNER-->
-        </div>
-    </header>
-    <!--HEADER END-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+<style type="text/css">
+.logo{margin-bottom: 13px;
+    margin-top: 10px;}
 
+
+@media screen and (max-width:  450px) {
+
+    .logo{
+            margin-left: 10px;margin-top: 10px;
+        }
+}
+
+
+.menuluis{
+           margin-right: -15px; margin-left: 30px;margin-top: 15px;z-index: 1;
+        }
+
+@media screen and (min-width: 1280px){
+.menuluis {
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1440px){
+.menuluis {
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px){
+.menuluis {
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 320px){
+.menuluis {
+    margin-left: 225px;
+    margin-top: 10px;
+}
+
+  }
+
+
+@media (max-width: 750px){
+
+.csi-banner2 {
+    background: url(../img/zikzak-bg.jpeg) top center no-repeat;
+    margin-top: -130px;
+    height: 450px;
+}
+
+}
+
+/*pone cuando menor a esa resolucion
+@media (max-width: 991px)
+.csi-banner .csi-inner {
+    padding: 20rem 0;
+    margin: 30px;
+}
+*/
+</style>
+
+
+
+
+<div class="container" >
+    <div class="row">
+        <div class="col-sm-6 col-xs-6" align="left"><img class="logo" src="img/logo.png" width="100"></div>
+        <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span style="font-size:80px;cursor:pointer;" onclick="openNav()">&#9776; </span></div>
+    </div>
+</div>
+<div style="border-bottom: 2px solid white;position: relative;"></div>
 
     <!--Banner-->
     <section>
-        <div class="csi-banner csi-banner-zikzak">
+        <div class="csi-banner csi-banner-zikzak csi-banner2">
             <div class="csi-banner-style">
                 <div class="csi-inner">
                     <div class="container">
                         <div class="csi-banner-content">
                             <h1 class="csi-subtitle tequetextp">Lorem Ipsum </h1>
                             <h2 class="csi-title tequetext" style="color: #e61d1f;">Lorem <span style="color:#efcd5a;"> Ipsum is simply</span> dummy</h2>
-                            <!-- <div class="btn-area">
-                                <a class="csi-btn" href="">Book A Table</a>
-                                <a class="csi-btn csi-btn-white" href="">Our Menu</a>
-                            </div> -->
+                            <div class="btn-area">
+                                <a class="csi-btn" href="">Text botton</a>
+                                <a class="csi-btn csi-btn-white" href="">Text botton</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -179,8 +264,6 @@
         </div>
     </section>
     <!--Banner END-->
-
-
 
     <!--ABOUT-->
     <section>
@@ -246,7 +329,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Tequeños de Queso</a></h3>
                                                     <p class="price">
-                                                        15<span>S/</span>
+                                                       <span>S/</span> 15
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -264,7 +347,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Tequeños de Jamón</a></h3>
                                                     <p class="price">
-                                                        20<span>S/</span>
+                                                       <span>S/</span> 20
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -282,7 +365,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Tequeños de Nutella</a></h3>
                                                     <p class="price">
-                                                        15<span>S/</span>
+                                                       <span>S/</span> 15
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -300,7 +383,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Tequeños de Pollo</a></h3>
                                                     <p class="price">
-                                                        15<span>S/</span>
+                                                       <span>S/</span> 15
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -325,7 +408,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Crema de Ajo</a></h3>
                                                     <p class="price">
-                                                        5<span>S/</span>
+                                                      <span>S/</span>  5
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -343,7 +426,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Crema Huancaina</a></h3>
                                                     <p class="price">
-                                                        10<span>S/</span>
+                                                       <span>S/</span> 10
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -361,7 +444,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Crema de Huacamole</a></h3>
                                                     <p class="price">
-                                                        15<span>S/</span>
+                                                       <span>S/</span> 15
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -379,7 +462,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Crema Golf</a></h3>
                                                     <p class="price">
-                                                        10<span>S/</span>
+                                                       <span>S/</span> 10
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -402,7 +485,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Papelon con Limón</a></h3>
                                                     <p class="price">
-                                                        3<span>S/</span>
+                                                      <span>S/</span>  3
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -420,7 +503,7 @@
                                                 <div class="title-area">
                                                     <h3 class="title"><a href="#!">Chicha Venezolana</a></h3>
                                                     <p class="price">
-                                                        5<span>S/</span>
+                                                      <span>S/</span>  5
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -453,41 +536,19 @@
                                     <div class="milestone-inner">
                                         <div class="csi-content">
                                             <div class="row">
-                                                <h3 class="tequetext" style="font-size: 58px;text-align: center;">Ingredientes</h3>
-                                                <div class="col-sm-6">
+                                                <h3 class="tequetext title_ingr" style="">Ingredientes</h3>
+                                                <div class="col-sm-12">
                                                     <div class="csi-counter-area">
-                                                        <img src="assets/img/milestone-icon1.png" alt="milestone icon">
-                                                        <div class="counter-text">
-                                                            <small>Competition Winner</small>
-                                                            <span class="csi-counter">500</span>
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                                <div class="col-sm-6">
-                                                    <div class="csi-counter-area">
-                                                        <img src="assets/img/milestone-icon2.png" alt="milestone icon">
-                                                        <div class="counter-text">
-                                                            <small>Year of Experience</small>
-                                                            <span class="csi-counter">12</span>
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                                <div class="col-sm-6">
-                                                    <div class="csi-counter-area">
-                                                        <img src="assets/img/milestone-icon3.png" alt="milestone icon">
-                                                        <div class="counter-text">
-                                                            <small>Regular Clients</small>
-                                                            <span class="csi-counter">7896</span>
-                                                        </div>
-                                                    </div>
-                                                </div> 
-                                                <div class="col-sm-6">
-                                                    <div class="csi-counter-area">
-                                                        <img src="assets/img/milestone-icon4.png" alt="milestone icon">
-                                                        <div class="counter-text">
-                                                            <small>Skilled Chefs</small>
-                                                            <span class="csi-counter">600</span>
-                                                        </div>
+                                                       
+                                                            <ul class="list_ingr">
+                                                                <li>harina de trigo</li>
+                                                                <li>Mantilla</li>
+                                                                <li>Huevos</li>
+                                                                <li>Sal</li>
+                                                                <li>Queso blanco</li>
+                                                                <li>Abundante Aceite</li>
+                                                            </ul>
+                                                        
                                                     </div>
                                                 </div> 
                                             </div>
@@ -497,10 +558,10 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h3 class="tequetext" style="font-size: 58px;text-align: center;">Como se hacen</h3>
+                            <h3 class="tequetext title_ingr" style="">Como se hacen</h3>
                             <div class="csi-video-area">
                                 <figure>
-                                    <a href="home-zikzak.html#"><img src="assets/img/video.jpg" alt="Special Food"></a>
+                                    <a href="home-zikzak.html#"><img src="assets/img/video.jpeg" alt="Special Food"></a>
                                     <figcaption>
                                         <div class="video-icon">
                                             <div class="csi-vertical">
@@ -519,7 +580,7 @@
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                             </div>
                                             <div class="modal-body">
-                                                <iframe id="modalvideo" src="https://www.youtube.com/embed/5mIdto_5z6c" allowfullscreen></iframe>
+                                                <iframe id="modalvideo" src="https://www.youtube.com/watch?v=WiknKsXo2D8&t=555s" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                     </div>
@@ -535,44 +596,18 @@
 
     <!--Contacto-->
     <section>
-        <div id="csi-contact" class="csi-contact" >
+        <div id="csi-contact" class="csi-contact" style="background-color: #f9f9f9;" >
             <div class="csi-inner">
                 <div class="contact-top-area">
-                    <div class="contact-top-left">
-                        <div class="contact-info">
-                            <div class="csi-box">
-                                <span class="csi-icon"><i class="fa fa-headphones"></i></span>
-                                <div class="address">
-                                    <p>+2545-8546-XXX</p>
-                                    <p>+2545-8546-XXX</p>
-                                </div>
-                            </div>
-                            <div class="csi-box">
-                                <span class="csi-icon"><i class="fa fa-envelope"></i></span>
-                                <div class="address">
-                                    <p>Email:<a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="caa0a2a5a4e4aea5af8aafb2aba7baa6afe4a9a5a7">[email&nbsp;protected]</a></p>
-                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="7c16141312521813193c19041d110c10194e521f1311">[email&nbsp;protected]</a></p>
-                                </div>
-                            </div>
-                            <div class="csi-box">
-                                <span class="csi-icon"><i class="fa fa-map-marker"></i></span>
-                                <div class="address">
-                                    <p>123 Grand Tower - 45 Street Name,
-                                        City Name, United State</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-top-right" id="pedidos">
                         <div class="innerpage-section">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="416" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="422" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
                 <div class="container" >
                     <div class="row">
                         <div class="col-sm-offset-2 col-sm-8" align="center">
-                            <h2 class="tequetext" style="color: #e61d1f; font-size: 72px;">Cont<span style="color:#efcd5a;">act</span>anos</h2>
+                            <h2 class="tequetext" style="color: #e61d1f; font-size: 68px; margin: 40px 0px 50px;">Cont<span style="color:#efcd5a;">act</span>anos</h2>
 
                             <form method="POST" class="csi-contactform" action="php/form-handler.php" novalidate="novalidate">
                                 <div class="form-group">
@@ -588,6 +623,7 @@
                                     <textarea class="form-control csimessage" name="csimessage" id="csimessage" rows="5" placeholder="Escribenos" required="" aria-required="true"></textarea>
                                 </div>
                                 <button type="submit" name="submit" value="contact-form" class="csi-btn hvr-glow hvr-radial-out csisend csi-send tequetext">Enviar Mensaje</button>
+
                             </form>
 
                             <div id="csi-form-modal" class="modal fade csi-form-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -612,7 +648,7 @@
     </section>
     <!--Contacto END-->
     
-
+    <!--Footer--->
     <footer>
         <div id="csi-footer" class="csi-footer">
             <div class="csi-inner">
@@ -624,7 +660,7 @@
                                     <a class="footer-logo" href="index.html"><img src="img/logo.png" width="200" alt="logo"/></a>
                                 </div>
                             </div>
-                        </div><!--//.ROW-->
+                        </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
@@ -632,31 +668,23 @@
                                     <p class="tequetext">345 Park Ave, San Jose, CA 95110, United States</p>
                                     <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protected]</a></p>
                                 </div>
-                            </div> <!--//.col-->
+                            </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
                                     <h3 class="title tequetextp">Book A Table</h3>
                                     <p class="tequetext">pellentesque vehicula. Aliquam turpis justo, mattis id neque</p>
                                     <p class="tequetext">Mobile: +778529600</p>
                                 </div>
-                            </div> <!--//.col-->
+                            </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
                                     <h3 class="title tequetextp">Opening Time</h3>
                                     <p class="tequetext">Mon - Thu 11:30 - 22:00 clock </p>
                                     <p class="tequetext">Fri - Sat 11:30 - 24:00 clock </p>
                                 </div>
-                            </div> <!--//.col-->
-                        <!--//    <div class="col-xs-12 col-sm-3">
-                                <div class="single">
-                                    <h3 class="title tequetextp">Social Links</h3>
-                                    <ul class="list-inline footer-social">
-                                        <li><a href="home-zikzak.html#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div> .col-->
-                        </div> <!--//.main row-->
-                    </div><!-- //.CONTAINER -->
+                            </div>
+                        </div> 
+                    </div>
                 </div>
                 <div class="csi-footer-bottom">
                     <div class="container">
@@ -664,17 +692,35 @@
                             <div class="col-xs-12">
                                 <p>TequeCheese <i class="fa fa-copyright" aria-hidden="true"></i> - Peru  |  2018 all rights reserved by Update.pe</p>
                             </div>
-                        </div><!--//.ROW-->
-                    </div><!-- //.CONTAINER -->
-                </div><!-- //.INNER-->
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-
+    <!--Footer-->
 
 </div> <!--//.csi SITE CONTAINER-->
 <!-- *** ADD YOUR SITE SCRIPT HERE *** -->
 <!-- JQUERY  -->
+
+<script>
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
 <script data-cfasync="false" src="../../../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script><script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
 
 <!-- BOOTSTRAP JS  -->
@@ -716,6 +762,10 @@
 
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
+
+
+
+
 
 
 </body>
