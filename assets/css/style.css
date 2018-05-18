@@ -55,7 +55,7 @@ p {
 }
 
 body {
-    background: #e51c1e;
+    background: #ffffff;
 }
 
 p {
@@ -1147,9 +1147,9 @@ blockquote:before {
 }
 
 .csi-banner-zikzak {
-    background: url("../img/zikzak-bg.jpeg") top center no-repeat;
+    background: url("../img/slider-1.png") top center no-repeat;
     margin-top: -130px;
-    height: 650px;
+    height: 800px;
     background-size: cover;
 /*    width: 1600px;
     -webkit-transition: width 2s;  For Safari 3.1 to 6.0 
@@ -1540,7 +1540,7 @@ blockquote:before {
 
 .about-top-single:hover,
 .csi-about {
-    background: #e51c1e;
+    background: #fff;
 }
 
 .about-top-single .title {
@@ -2320,14 +2320,27 @@ blockquote:before {
     background-size: cover;
 }
 
+.csi-milestone-about .csi-inner {/*    background: rgb(231, 48, 50);*/background-image: url(../img/madera.png);background-size: cover;/* height: 630px; */}
+
+
+
+
+@media only screen and (max-width: 1024px) {
 .csi-milestone-about .csi-inner {
-    background: rgb(231, 48, 50);
+/*    background: rgb(231, 48, 50);*/
+    background-image: url(../img/madera.png);
+    background-size: cover;
+ /*   height: 1130px;*/
 }
+
+}
+
+
 
 .csi-milestone .csi-counter-area {
     margin-bottom: 4.2rem;
     color: #fff;
-    text-align: center
+    text-align: center;
 }
 
 .csi-milestone .csi-counter-area img {
@@ -2362,7 +2375,7 @@ blockquote:before {
 }
 
 .csi-video-area figure figcaption {
-    background: rgba(33, 39, 57, .7);
+   /* background: rgba(33, 39, 57, .7);*/
     position: absolute;
     top: 0;
     left: 0;
@@ -3283,7 +3296,9 @@ blockquote:before {
 }
 
 .csi-footer .single p {
-    margin-bottom: 0
+    margin-bottom: 0;
+    letter-spacing: 0.11rem;
+    /* font-weight:  100; */
 }
 
 .csi-footer p {
@@ -3369,11 +3384,11 @@ blockquote:before {
 
 .csi-footer .footer-top-area .single .title {
     font-size: 4.2rem;
-    font-weight: 400;
+    font-weight: 900;
     margin-bottom: 2.6rem;
     color: #efcd5a;
     letter-spacing: .08rem;
-    opacity: .7;
+    /* opacity: .7; */
 }
 
 .csi-footer .footer-top-area .single .title i {
@@ -4266,7 +4281,7 @@ textarea.form-control {
         margin-bottom: 2.6rem
     }
     .csi-footer .footer-top-area .single .title {
-        margin-bottom: 1.6rem
+        margin-bottom: 1.6rem;
     }
     .csi-menu .csi-inner,
     .csi-special .csi-inner {
@@ -4328,7 +4343,8 @@ textarea.form-control {
     }
     .csi-milestone-about .csi-inner,
     .csi-testimonials .csi-inner {
-        padding: 6.8rem 0 4.2rem
+        padding: 6.8rem 0 4.2rem;
+        height: 950px;
     }
     .team-single {
         margin-bottom: 2.6rem
@@ -4441,21 +4457,71 @@ textarea.form-control {
     }
 }
 
-
+.fed{
+    background: white;
+}
 
 .list_ingr{
     text-align: left;
     list-style: none;
-    font-size: 42px;
-    line-height: 50px;
+    font-size: 32px;
+    line-height: 42px;
     font-family: "tequetextp";
     letter-spacing: 2px;
     vertical-align: middle;
+    color: #909090;
 }
 
 
 .title_ingr{
     font-size: 58px;
     text-align: center;
-    margin-bottom: 60px;
+    /* background-color: white; */
+    margin: 30px 0px;
 }
+
+.rot_list{
+ background: url('../img/hoja_book.png');
+ -ms-transform: rotate(-10deg); /* IE 9 */
+ -webkit-transform: rotate(-10deg); /* Safari 3-8 */
+ transform: rotate(-10deg);
+ width: 450px;
+}
+
+@media only screen and (max-width: 600px) {
+.rot_list {
+   background: white;
+    width: auto;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+}
+}
+
+.rot_vie{
+
+    -ms-transform: rotate(10deg); /* IE 9 */
+    -webkit-transform: rotate(10deg); /* Safari 3-8 */
+    transform: rotate(10deg);
+}
+
+@media only screen and (max-width: 770px) {
+    .rot_vie{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+}
+
+}
+
+.img_banner{
+    background-image: url(../img/imgbanner.png);
+    background-size: cover;
+    padding: 40px 0px 100px;
+    margin-top: -20px;
+}
+
+
+
+
+

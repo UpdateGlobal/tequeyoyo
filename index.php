@@ -33,21 +33,21 @@
     <!-- facebook open graph ends from here -->
 
     <!--  FAVICON AND TOUCH ICONS -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />  <!-- this icon shows in browser toolbar -->
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> <!-- this icon shows in browser toolbar -->
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon/icono.png" />  <!-- this icon shows in browser toolbar -->
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/icono.png" /> <!-- this icon shows in browser toolbar -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/img/favicon/icono.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/icono.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/favicon/icono.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/icono.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon/icono.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/icono.png">
     <link rel="manifest" href="assets/img/favicon/manifest.json">
 
     <!-- BOOTSTRAP CSS -->
@@ -92,13 +92,13 @@
 .sidenav a {
     padding: 60px 8px 8px 32px;
     text-decoration: none;
-    font-size: 51px;
+    font-size: 37px;
     color: #efcd5a;
     display: block;
     transition: 0.3s;
     letter-spacing: 3px;
-    line-height: 42px;
-    font-family: "tequetextp";
+    line-height: 0px;
+    font-family: "tequetextp"
 }
 
 /* When you mouse over the navigation links, change their color */
@@ -126,27 +126,59 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
 .burge{
     margin-top: 20px;
     padding-right: 40px;
 }
-
 .topo{
-
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-
 }
-
-
 .fimenu{
     position: fixed;
     margin-left: 70px;
     margin-top: 20px;
 }
+.logo{margin-bottom: 13px;
+    margin-top: 10px;}
+
+
+@media screen and (max-width:  450px) {.logo{margin-left: 10px;margin-top: 10px;}}
+.menuluis{margin-right: -15px; margin-left: 30px;margin-top: 15px;z-index: 1;}
+
+@media screen and (min-width: 1280px){.menuluis {margin-left: 225px;margin-top: 10px;}}
+@media screen and (max-width: 1440px){.menuluis {margin-left: 225px;margin-top: 10px;}}
+@media screen and (min-width: 768px){.menuluis {margin-left: 225px;margin-top: 10px;}}
+@media screen and (max-width: 320px){.menuluis {margin-left: 225px;margin-top: 10px;}}
+
+
+@media (max-width: 425px){
+.csi-banner2 {
+    background: url(img/slider-1-res.png) top center no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*margin-top: 0px;*/
+    height: 650px;
+    }
+
+}
+
+
+@media (min-width: 1440px){
+.csi-banner-zikzak {
+    /*background: url("../img/slider-1.png") top center no-repeat;*/
+
+    margin-top: -130px;
+    height: 1300px;
+    background-size: cover;
+
+}
+
+}
+
+    
 
 </style>
 
@@ -161,88 +193,21 @@
 <div class="csi-container ">
     <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
 
+    <!--mmenu-->
     <div id="mySidenav" class="sidenav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
+      <a href="#historia">Historia</a>
+      <a href="#carta">Carta</a>
+      <a href="#ingredientes">Ingredientes</a>
+      <a href="#contacto">Contacto</a>
     </div>
-<style type="text/css">
-.logo{margin-bottom: 13px;
-    margin-top: 10px;}
-
-
-@media screen and (max-width:  450px) {
-
-    .logo{
-            margin-left: 10px;margin-top: 10px;
-        }
-}
-
-
-.menuluis{
-           margin-right: -15px; margin-left: 30px;margin-top: 15px;z-index: 1;
-        }
-
-@media screen and (min-width: 1280px){
-.menuluis {
-    margin-left: 225px;
-    margin-top: 10px;
-}
-
-
-@media screen and (max-width: 1440px){
-.menuluis {
-    margin-left: 225px;
-    margin-top: 10px;
-}
-
-@media screen and (min-width: 768px){
-.menuluis {
-    margin-left: 225px;
-    margin-top: 10px;
-}
-
-
-@media screen and (max-width: 320px){
-.menuluis {
-    margin-left: 225px;
-    margin-top: 10px;
-}
-
-  }
-
-
-@media (max-width: 750px){
-
-.csi-banner2 {
-    background: url(../img/zikzak-bg.jpeg) top center no-repeat;
-    margin-top: -130px;
-    height: 450px;
-}
-
-}
-
-/*pone cuando menor a esa resolucion
-@media (max-width: 991px)
-.csi-banner .csi-inner {
-    padding: 20rem 0;
-    margin: 30px;
-}
-*/
-</style>
-
-
-
-
-<div class="container" >
-    <div class="row">
-        <div class="col-sm-6 col-xs-6" align="left"><img class="logo" src="img/logo.png" width="100"></div>
-        <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span style="font-size:80px;cursor:pointer;" onclick="openNav()">&#9776; </span></div>
+    <div class="container" >
+        <div class="row">
+            <div class="col-sm-6 col-xs-6" align="left"><img class="logo" src="img/logo.png" width="100"></div>
+            <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span></div>
+        </div>
     </div>
-</div>
-<div style="border-bottom: 2px solid white;position: relative;"></div>
+    <!--mmenu-->
 
     <!--Banner-->
     <section>
@@ -251,12 +216,12 @@
                 <div class="csi-inner">
                     <div class="container">
                         <div class="csi-banner-content">
-                            <h1 class="csi-subtitle tequetextp">Lorem Ipsum </h1>
+                           <!--  <h1 class="csi-subtitle tequetextp">Lorem Ipsum </h1>
                             <h2 class="csi-title tequetext" style="color: #e61d1f;">Lorem <span style="color:#efcd5a;"> Ipsum is simply</span> dummy</h2>
                             <div class="btn-area">
                                 <a class="csi-btn" href="">Text botton</a>
                                 <a class="csi-btn csi-btn-white" href="">Text botton</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -265,26 +230,40 @@
     </section>
     <!--Banner END-->
 
+    <!--seccion-->
+        <section>
+            <div class="container-fluid img_banner" >
+                <div class="row" align="center" style="margin: 0px; padding: 0px;">
+                    <div class="col-sm-12">
+                        <h1 class="tequetext" style="color: #e61d1f;">tequeno</h1>
+                        <h3 class="tequetextp" style="color: #ffffff;">tequenos</h3>
+                    </div>
+                </div>
+            </div>      
+        </section>
+    <!--seccion-->
+
     <!--ABOUT-->
-    <section>
+    <section id="historia">
         <div id="csi-about" class="csi-about csi-about-zikzak">
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="csi-heading">
-                                <h3 class="subtitle tequetext">Nuestra Historias</h3>
-                                <h2 class="title tequetextp">Lorem Ipsum is</h2>
+                                <img src="img/3.png" alt="about team">
+                                <h3 class="subtitle tequetext" style="color: #e61d1f;">Nuestra Historias</h3>
+                                <h2 class="title tequetextp" style="color:#efcd5a;">Lorem Ipsum is</h2>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="csi-about-content">
-                                <p class="text">
+                                <p class="text" style="color:#909090;">
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
                                 </p>
-                                <img src="img/about-bottom.jpg" alt="about team">
+                                <br><br>
                             </div>
                         </div>
                     </div>
@@ -295,7 +274,7 @@
     <!--ABOUT END-->
 
     <!--MENU ITEMS-->
-    <section>
+    <section id="carta">
         <div id="csi-menu" class="csi-menu">
             <div class="csi-inner">
                 <div class="container">
@@ -525,7 +504,7 @@
 
 
     <!--MILESTONE-->
-    <section>
+    <section id="ingredientes">
         <div id="csi-milestone-about" class="csi-milestone-about">
             <div class="csi-inner">
                 <div class="container">
@@ -536,19 +515,19 @@
                                     <div class="milestone-inner">
                                         <div class="csi-content">
                                             <div class="row">
-                                                <h3 class="tequetext title_ingr" style="">Ingredientes</h3>
-                                                <div class="col-sm-12">
-                                                    <div class="csi-counter-area">
-                                                       
-                                                            <ul class="list_ingr">
-                                                                <li>harina de trigo</li>
-                                                                <li>Mantilla</li>
-                                                                <li>Huevos</li>
-                                                                <li>Sal</li>
-                                                                <li>Queso blanco</li>
-                                                                <li>Abundante Aceite</li>
-                                                            </ul>
-                                                        
+                                                <br><br>
+                                                <div class="col-sm-12 rot_list">
+                                                    <h3 class="tequetext title_ingr" style="color: #e61d1f;">Ingredientes</h3>
+                                                    <br>
+                                                    <div class="csi-counter-area" style="">
+                                                        <ul class="list_ingr">
+                                                            <li>harina de trigo</li>
+                                                            <li>Mantilla</li>
+                                                            <li>Huevos</li>
+                                                            <li>Sal</li>
+                                                            <li>Queso blanco</li>
+                                                            <li>Abundante Aceite</li>
+                                                        </ul>
                                                     </div>
                                                 </div> 
                                             </div>
@@ -558,8 +537,8 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h3 class="tequetext title_ingr" style="">Como se hacen</h3>
-                            <div class="csi-video-area">
+                            <div class="csi-video-area rot_vie">
+                                <h3 class="tequetext title_ingr" style="color: #e61d1f;">Como se hacen</h3>
                                 <figure>
                                     <a href="home-zikzak.html#"><img src="assets/img/video.jpeg" alt="Special Food"></a>
                                     <figcaption>
@@ -595,12 +574,12 @@
     <!--MILESTONE END-->
 
     <!--Contacto-->
-    <section>
+    <section id="contacto">
         <div id="csi-contact" class="csi-contact" style="background-color: #f9f9f9;" >
             <div class="csi-inner">
                 <div class="contact-top-area">
                         <div class="innerpage-section">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="422" frameborder="0" style="border:0" allowfullscreen></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25527.36953922789!2d-77.09831684885098!3d-12.088282564197323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c9a112e39ef3%3A0x4d2c6617bf4529d3!2sGrau+766%2C+Magdalena+del+Mar+15086!5e0!3m2!1ses-419!2spe!4v1526336936965" style="width: 100%;" height="700" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -664,23 +643,23 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">Contact</h3>
-                                    <p class="tequetext">345 Park Ave, San Jose, CA 95110, United States</p>
-                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protected]</a></p>
+                                    <h3 class="title tequetextp">lorenIpsum</h3>
+                                    <p class="tequetext">Magdalena lima Peru</p>
+                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protegido]</a></p>
                                 </div>
                             </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">Book A Table</h3>
-                                    <p class="tequetext">pellentesque vehicula. Aliquam turpis justo, mattis id neque</p>
+                                    <h3 class="title tequetextp">lorenIpsum</h3>
+                                    <p class="tequetext">loren Ipsun text this cool</p>
                                     <p class="tequetext">Mobile: +778529600</p>
                                 </div>
                             </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">Opening Time</h3>
-                                    <p class="tequetext">Mon - Thu 11:30 - 22:00 clock </p>
-                                    <p class="tequetext">Fri - Sat 11:30 - 24:00 clock </p>
+                                    <h3 class="title tequetextp">lorenIpsum</h3>
+                                    <p class="tequetext">Lun - Vi 11:30 - 22:00  </p>
+                                    <p class="tequetext">Sab - Dom 11:30 - 24:00  </p>
                                 </div>
                             </div>
                         </div> 
@@ -707,8 +686,8 @@
 <script>
 /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 }
 
