@@ -4518,7 +4518,7 @@ textarea.form-control {
 .img_banner{
     background-image: url(../img/imgbanner.png);
     background-size: cover;
-    padding: 40px 0px 100px;
+    padding: 40px 0px 55px;
     margin-top: -20px;
 }
 

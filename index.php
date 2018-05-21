@@ -1,4 +1,4 @@
-<!doctype html>
+        <!doctype html>
 <html class="no-js" lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -8,9 +8,9 @@
 
     <!-- SITE TITLE -->
     <title>Tequecheese</title>
-    <meta name="description" content="Food, Restaurant & Cafe HTML Template" />
-    <meta name="keywords" content="Food, Restaurant, Cafe, Responsive, HTML5" />
-    <meta name="author" content="httpcoder.com" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
 
     <!-- twitter card starts from here, if you don't need remove this section -->
     <meta name="twitter:card" content="summary" />
@@ -242,8 +242,8 @@
             <div class="container-fluid img_banner" >
                 <div class="row" align="center" style="margin: 0px; padding: 0px;">
                     <div class="col-sm-12">
-                        <h1 class="tequetext" style="color: #e61d1f;">Lorem Ipsum</h1>
-                        <h3 class="tequetextp" style="color: #ffffff;">Lorem Ipsum Text dir fartud</h3>
+                        <h1 class="tequetext" style="color: #e61d1f;">Tequecheese</h1>
+                        <h3 class="tequetextp" style="color: #ffffff;">Tequeños Venezolanos</h3>
                     </div>
                 </div>
             </div>      
