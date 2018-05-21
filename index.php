@@ -126,6 +126,9 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+
+
 .burge{
     margin-top: 20px;
     padding-right: 40px;
@@ -195,6 +198,9 @@
 
     <!--mmenu-->
     <div id="mySidenav" class="sidenav">
+        <div class="row text-center">
+            <img src="img/logo.png" width="200">
+        </div>
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#historia">Historia</a>
       <a href="#carta">Carta</a>
@@ -231,20 +237,21 @@
     <!--Banner END-->
 
     <!--seccion-->
-        <section>
+    <section>
+            <div id="historia"></div>
             <div class="container-fluid img_banner" >
                 <div class="row" align="center" style="margin: 0px; padding: 0px;">
                     <div class="col-sm-12">
-                        <h1 class="tequetext" style="color: #e61d1f;">tequeno</h1>
-                        <h3 class="tequetextp" style="color: #ffffff;">tequenos</h3>
+                        <h1 class="tequetext" style="color: #e61d1f;">Lorem Ipsum</h1>
+                        <h3 class="tequetextp" style="color: #ffffff;">Lorem Ipsum Text dir fartud</h3>
                     </div>
                 </div>
             </div>      
-        </section>
+    </section>
     <!--seccion-->
 
     <!--ABOUT-->
-    <section id="historia">
+    <section >
         <div id="csi-about" class="csi-about csi-about-zikzak">
             <div class="csi-inner">
                 <div class="container">
@@ -282,7 +289,7 @@
                         <div class="col-xs-12">
                             <div class="csi-heading">
                                 <h3 class="subtitle tequetext" style="color: #e61d1f;">loren ipsum</h3>
-                                <h2 class="title tequetextp" style="color:#efcd5a;">Loren Ipsum is text</h2>
+                                <h2 class="title tequetextp" style="color:#ffffff;">Loren Ipsum is text</h2>
                             </div>
                         </div>
                     </div>
@@ -291,14 +298,15 @@
 
                             <div class="csi-nav-pills-area">
                                 <ul class="nav nav-pills csi-nav-pills">
-                                    <li class="active"><a data-toggle="pill" href="#home">Tequeños</a></li>
-                                    <li><a data-toggle="pill" href="#menu1">Cremas</a></li>
-                                    <li><a data-toggle="pill" href="#menu3">Bebidas</a></li>
+                                    <li class="active"><a data-toggle="pill" href="#tequenos">Tequeños</a></li>
+                                    <li><a data-toggle="pill" href="#cremas">Cremas</a></li>
+                                    <li><a data-toggle="pill" href="#pastelitos">Pastelitos</a></li>
+                                    <li><a data-toggle="pill" href="#bebidas">Bebidas</a></li>
                                 </ul>
                             </div>
 
                             <div class="tab-content csi-tab-content">
-                                <div id="home" class="tab-pane fade in active">
+                                <div id="tequenos" class="tab-pane fade in active">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/tequenos600x600.jpg" alt=""></a>
@@ -306,7 +314,7 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Tequeños de Queso</a></h3>
+                                                    <h3 class="title"><a href="#!">Queso</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 15
                                                     </p>
@@ -324,13 +332,31 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Tequeños de Jamón</a></h3>
+                                                    <h3 class="title"><a href="#!">Queso Con Platano</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 20
                                                     </p>
                                                 </div>
                                                 <p class="text">
                                                     With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/tequenos600x600.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Queso con Chorizo Parrillero</a></h3>
+                                                    <p class="price">
+                                                       <span>S/</span> 15
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
                                             </div> 
                                         </div>
@@ -360,7 +386,7 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Tequeños de Pollo</a></h3>
+                                                    <h3 class="title"><a href="#!">Queso con Jamón</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 15
                                                     </p>
@@ -377,7 +403,7 @@
 
 
 
-                                <div id="menu1" class="tab-pane fade">
+                                <div id="cremas" class="tab-pane fade">
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img  src="img/salsaajo.jpeg" alt=""></a>
@@ -385,7 +411,7 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Crema de Ajo</a></h3>
+                                                    <h3 class="title"><a href="#!">Mayoqueso</a></h3>
                                                     <p class="price">
                                                       <span>S/</span>  5
                                                     </p>
@@ -403,7 +429,7 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Crema Huancaina</a></h3>
+                                                    <h3 class="title"><a href="#!">Aceitunas</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 10
                                                     </p>
@@ -421,7 +447,7 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Crema de Huacamole</a></h3>
+                                                    <h3 class="title"><a href="#!">Rocoto</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 15
                                                     </p>
@@ -439,7 +465,25 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Crema Golf</a></h3>
+                                                    <h3 class="title"><a href="#!">Ají de la Casa</a></h3>
+                                                    <p class="price">
+                                                       <span>S/</span> 10
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/salsaajo.jpeg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Mayonesa</a></h3>
                                                     <p class="price">
                                                        <span>S/</span> 10
                                                     </p>
@@ -454,7 +498,157 @@
 
 
 
-                                <div id="menu3" class="tab-pane fade">
+                                <div id="pastelitos" class="tab-pane fade">
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pasteles.png" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Pollo</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  3
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pasteles.png" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Andino</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  5
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pasteles.png" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Papa con Queso</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  3
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pasteles.png" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Pizza</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  5
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <div id="bebidas" class="tab-pane fade">
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pachi.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Cocacola</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  3
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pachi.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Inkacola</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  5
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pachi.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Chicha Morada</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  3
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
+                                    <div class="csi-single-tab">
+                                        <div class="menu-thumb">
+                                            <a href="#!"><img src="img/pachi.jpg" alt=""></a>
+                                        </div>
+                                        <div class="menu-content">
+                                            <div class="csi-info">
+                                                <div class="title-area">
+                                                    <h3 class="title"><a href="#!">Maracuya</a></h3>
+                                                    <p class="price">
+                                                      <span>S/</span>  3
+                                                    </p>
+                                                </div>
+                                                <p class="text">
+                                                    Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
+                                                </p>
+                                            </div> 
+                                        </div>
+                                    </div>
                                     <div class="csi-single-tab">
                                         <div class="menu-thumb">
                                             <a href="#!"><img src="img/pachi.jpg" alt=""></a>
@@ -480,9 +674,9 @@
                                         <div class="menu-content">
                                             <div class="csi-info">
                                                 <div class="title-area">
-                                                    <h3 class="title"><a href="#!">Chicha Venezolana</a></h3>
+                                                    <h3 class="title"><a href="#!">Agua</a></h3>
                                                     <p class="price">
-                                                      <span>S/</span>  5
+                                                      <span>S/</span>  3
                                                     </p>
                                                 </div>
                                                 <p class="text">
@@ -492,6 +686,16 @@
                                         </div>
                                     </div>
                                 </div>
+
+
+
+
+
+
+
+
+
+
                             </div>
 
                         </div>
@@ -503,9 +707,10 @@
     <!--MENU ITEMS END-->
 
 
-    <!--MILESTONE-->
-    <section id="ingredientes">
+    <!--INGREDIENTES-->
+    <section>
         <div id="csi-milestone-about" class="csi-milestone-about">
+                    <div id="ingredientes"></div>
             <div class="csi-inner">
                 <div class="container">
                     <div class="row">
@@ -537,9 +742,9 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="csi-video-area rot_vie">
+                            <div class="csi-video-area">
                                 <h3 class="tequetext title_ingr" style="color: #e61d1f;">Como se hacen</h3>
-                                <figure>
+                                <figure class="rot_vie">
                                     <a href="home-zikzak.html#"><img src="assets/img/video.jpeg" alt="Special Food"></a>
                                     <figcaption>
                                         <div class="video-icon">
@@ -559,11 +764,13 @@
                                                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                             </div>
                                             <div class="modal-body">
-                                                <iframe id="modalvideo" src="https://www.youtube.com/watch?v=WiknKsXo2D8&t=555s" allowfullscreen></iframe>
+                                                <h3 class="tequetextp">Como se Hacen?</h3>
+                                               <!-- <iframe id="modalvideo" src="https://www.youtube.com/watch?v=WiknKsXo2D8&t=555s" allowfullscreen></iframe> -->
+                                               <iframe width="854" height="480" src="https://www.youtube.com/embed/WiknKsXo2D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                             </div>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -571,10 +778,10 @@
             </div>
         </div>
     </section>
-    <!--MILESTONE END-->
+    <!--INGREDIENTES END-->
 
     <!--Contacto-->
-    <section id="contacto">
+    <section>
         <div id="csi-contact" class="csi-contact" style="background-color: #f9f9f9;" >
             <div class="csi-inner">
                 <div class="contact-top-area">
@@ -583,6 +790,7 @@
                         </div>
                     </div>
                 </div>
+                <div id="contacto"></div>
                 <div class="container" >
                     <div class="row">
                         <div class="col-sm-offset-2 col-sm-8" align="center">
@@ -742,7 +950,33 @@ function closeNav() {
 <!-- CUSTOM SCRIPT  -->
 <script src="assets/js/custom.script.js"></script>
 
+<script>
+$(document).ready(function(){
+  //  Agregue desplazamiento suave a todos los enlaces
+  $("a").on('click', function(event) {
 
+    // Asegúrate de que this.hash tenga un valor antes de anular el comportamiento predeterminado
+    if (this.hash !== "") {
+
+      // Evitar el comportamiento de clic de ancla predeterminado
+      event.preventDefault();
+
+      // Almacenar hash
+      var hash = this.hash;
+
+      // Usar el método animado () de jQuery para agregar un desplazamiento suave de la página
+      // El número opcional (800) especifica la cantidad de milisegundos necesarios para desplazarse al área especificada
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Agregue hash (#) a URL cuando finalice el desplazamiento (comportamiento de clic predeterminado)
+        window.location.hash = hash;
+      });
+    } // fin if
+  });
+});
+</script>
 
 
 
