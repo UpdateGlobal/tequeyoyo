@@ -203,8 +203,8 @@
     </div>
     <div class="container" >
         <div class="row">
-            <div class="col-sm-6 col-xs-6" align="left"><img class="logo" src="img/logo.png" width="100"></div>
-            <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span></div>
+            <div class="col-sm-6 col-xs-6" align="left"><span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span><img class="logo" src="img/logo.png" width="100"></div>
+            <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"></div>
         </div>
     </div>
     <!--mmenu-->
