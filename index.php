@@ -55,6 +55,7 @@
 
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css" media="all" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" crossorigin="anonymous">
 
     <!-- GOOGLE FONT -->
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900%7CCookie"/>
@@ -81,7 +82,7 @@
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
-    left: 0;
+    right: 0;
     background-color: #e71e20; /* Black*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 95px; /* Place content 60px from the top */
@@ -115,6 +116,19 @@
     margin-left: 50px;
 }
 
+
+/*@media screen  and (max-width: 600px){
+    .sidenav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    font-size: 70px;
+    margin-left: 0px;
+}
+    
+}*/
+
+
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
@@ -126,7 +140,9 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
-
+.icons{
+    color: red;
+}
 
 
 .burge{
@@ -180,7 +196,10 @@
 }
 
 }
-
+   .buldel{
+        font-size: 50px;
+        cursor: pointer;
+    }
     
 
 </style>
@@ -197,20 +216,24 @@
     <!-- ***  ADD YOUR SITE CONTENT HERE *** -->
 
     <!--mmenu-->
-    <div id="mySidenav" class="sidenav">
+    <div id="mySidenav" class="sidenav"> 
         <div class="row text-center">
-            <img src="img/logo.png" width="200">
+            <img src="img/logo.png" width="200" class="hidden-xs">
         </div>
+      
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="#historia">Historia</a>
       <a href="#carta">Carta</a>
       <a href="#ingredientes">Ingredientes</a>
       <a href="#contacto">Contacto</a>
     </div>
-    <div class="container" >
+
+
+
+    <div class="container navbar-fixed-top" >
         <div class="row">
             <div class="col-sm-6 col-xs-6" align="left"><img class="logo" src="img/logo.png" width="100"></div>
-            <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; </span></div>
+            <div class="col-sm-6 col-xs-6" align="right" style="padding-top: 40px;"><span class="buldel" onclick="openNav()">&#9776; </span></div>
         </div>
     </div>
     <!--mmenu-->
@@ -726,12 +749,12 @@
                                                     <br>
                                                     <div class="csi-counter-area" style="">
                                                         <ul class="list_ingr">
-                                                            <li>harina de trigo</li>
-                                                            <li>Mantilla</li>
-                                                            <li>Huevos</li>
-                                                            <li>Sal</li>
-                                                            <li>Queso blanco</li>
-                                                            <li>Abundante Aceite</li>
+                                                            <li><i class="fas fa-check icons"></i>harina de trigo</li>
+                                                            <li><i class="fas fa-check icons"></i>Mantilla</li>
+                                                            <li><i class="fas fa-check icons"></i>Huevos</li>
+                                                            <li><i class="fas fa-check icons"></i>Sal</li>
+                                                            <li><i class="fas fa-check icons"></i>Queso blanco</li>
+                                                            <li><i class="fas fa-check icons"></i>Abundante Aceite</li>
                                                         </ul>
                                                     </div>
                                                 </div> 
