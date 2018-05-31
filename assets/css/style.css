@@ -1149,9 +1149,9 @@ blockquote:before {
 .csi-banner-zikzak {
     background: url("../img/slider-1.png") top center no-repeat;
     margin-top: -130px;
-    height: 800px;
+    height: 50vw;
     background-size: cover;
-/*    width: 1600px;
+    /*    width: 1600px;
     -webkit-transition: width 2s;  For Safari 3.1 to 6.0 
     transition: width 2s;*/
 }
@@ -2005,7 +2005,7 @@ blockquote:before {
 }
 
 .csi-menu {
-    background: url("../../img/brochure-05.jpeg") top center no-repeat fixed;
+    background: url("../../img/teq.png") top center no-repeat fixed;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
@@ -2028,7 +2028,7 @@ blockquote:before {
 }
 
 .csi-nav-pills-area .csi-nav-pills li>a {
-    font-family: Cookie, cursive;
+    font-family: tequetextp;
     padding: 0 15px;
     color: #e83133;
     font-size: 40px;
@@ -2119,9 +2119,9 @@ blockquote:before {
 }
 
 .csi-tab-content .tab-pane .csi-single-tab .menu-content .csi-info .title-area .title {
-    font-family: Cookie, cursive;
+    font-family: tequetextp;
     display: inline-block;
-    font-size: 3.2rem;
+    font-size: 24px;
     line-height: 4.800000000000001rem;
     line-height: 4.3rem;
     font-weight: 400;
@@ -2507,7 +2507,7 @@ blockquote:before {
 }
 
 .csi-modal .modal-dialog .modal-content .modal-body {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     background: #212739
 }
@@ -4470,6 +4470,7 @@ textarea.form-control {
     letter-spacing: 2px;
     vertical-align: middle;
     color: #909090;
+    margin-left: 40px;
 }
 
 
@@ -4517,7 +4518,7 @@ textarea.form-control {
 .img_banner{
     background-image: url(../img/imgbanner.png);
     background-size: cover;
-    padding: 40px 0px 100px;
+    padding: 40px 0px 55px;
     margin-top: -20px;
 }
 
