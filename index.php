@@ -221,7 +221,7 @@
             <img src="img/logo.png" width="200" class="hidden-xs">
         </div>
       
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)"  onclick="closeNav()">&times;</a>
       <a href="#historia">Historia</a>
       <a href="#carta">Carta</a>
       <a href="#ingredientes">Ingredientes</a>
