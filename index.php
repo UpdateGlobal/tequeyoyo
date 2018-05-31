@@ -8,8 +8,8 @@
 
     <!-- SITE TITLE -->
     <title>Tequecheese</title>
-    <meta name="description" content="Food, Restaurant & Cafe HTML Template" />
-    <meta name="keywords" content="Food, Restaurant, Cafe, Responsive, HTML5" />
+    <meta name="description" content="Somos los ricos Tequeños hechos en el Perú por sabores venezolanos, nacimos de un emprendiemiento familiar como aporte gastronómico a todo el sabor caribeño y peruano" />
+    <meta name="keywords" content="Restaurant, Cafe, piqueos,venezuela, tequeños" />
     <meta name="author" content="httpcoder.com" />
 
     <!-- twitter card starts from here, if you don't need remove this section -->
@@ -17,16 +17,16 @@
     <meta name="twitter:site" content="@yourtwitterusername" />
     <meta name="twitter:creator" content="@yourtwitterusername" />
     <meta name="twitter:url" content="http://yourdomain.com" />
-    <meta name="twitter:title" content="Your home page title, max 140 char" /> <!-- maximum 140 char -->
-    <meta name="twitter:description" content="Your site description, maximum 140 char " /> <!-- maximum 140 char -->
+    <meta name="twitter:title" content="Somos los ricos Tequeños hechos en el Perú por sabores venezolanos, nacimos de un emprendiemiento familiar como aporte gastronómico a todo el sabor caribeño y peruano" /> <!-- maximum 140 char -->
+    <meta name="twitter:description" content="Somos los ricos Tequeños hechos en el Perú por sabores venezolanos, nacimos de un emprendiemiento familiar como aporte gastronómico a todo el sabor caribeño y peruano " /> <!-- maximum 140 char -->
     <meta name="twitter:image" content="assets/img/twittercardimg/twittercard-280-150.jpg" />  <!-- when you post this page url in twitter , this image will be shown -->
     <!-- twitter card ends from here -->
 
     <!-- facebook open graph starts from here, if you don't need then delete open graph related  -->
     <meta property="og:title" content="Your home page title" />
-    <meta property="og:url" content="http://your domain here.com" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="Your site name here" />
+    <meta property="og:url" content="http://tequecheese.com" />
+    <meta property="og:locale" content="es" />
+    <meta property="og:site_name" content="Tequecheese" />
     <!--meta property="fb:admins" content="" /-->  <!-- use this if you have  -->
     <meta property="og:type" content="website" />
     <meta property="og:image" content="assets/img/opengraph/fbphoto.jpg" /> <!-- when you post this page url in facebook , this image will be shown -->
@@ -93,7 +93,7 @@
     padding: 60px 8px 8px 32px;
     text-decoration: none;
     font-size: 37px;
-    color: #efcd5a;
+    color: #f9ce29;
     display: block;
     transition: 0.3s;
     letter-spacing: 3px;
@@ -217,7 +217,7 @@
                     <div class="container">
                         <div class="csi-banner-content">
                            <!--  <h1 class="csi-subtitle tequetextp">Lorem Ipsum </h1>
-                            <h2 class="csi-title tequetext" style="color: #e61d1f;">Lorem <span style="color:#efcd5a;"> Ipsum is simply</span> dummy</h2>
+                            <h2 class="csi-title tequetext" style="color: #e61d1f;">Lorem <span style="color:#f9ce29;"> Ipsum is simply</span> dummy</h2>
                             <div class="btn-area">
                                 <a class="csi-btn" href="">Text botton</a>
                                 <a class="csi-btn csi-btn-white" href="">Text botton</a>
@@ -235,8 +235,8 @@
             <div class="container-fluid img_banner" >
                 <div class="row" align="center" style="margin: 0px; padding: 0px;">
                     <div class="col-sm-12">
-                        <h1 class="tequetext" style="color: #e61d1f;">tequeno</h1>
-                        <h3 class="tequetextp" style="color: #ffffff;">tequenos</h3>
+                        <h1 class="tequetext" style="color: #e61d1f;">Todo sobre TEQUECHEESE</h1>
+                        <h3 class="tequetextp" style="color: #000000;">Los más ricos tequeños hechos para ti </h3>
                     </div>
                 </div>
             </div>      
@@ -252,16 +252,16 @@
                         <div class="col-xs-12">
                             <div class="csi-heading">
                                 <img src="img/3.png" alt="about team">
-                                <h3 class="subtitle tequetext" style="color: #e61d1f;">Nuestra Historias</h3>
-                                <h2 class="title tequetextp" style="color:#efcd5a;">Lorem Ipsum is</h2>
+                                <h3 class="subtitle tequetext" style="color: #e61d1f;">Nuestra Historia</h3>
+                                <h2 class="title tequetextp" style="color:#f9ce29;">RICOS TEQUEÑOS PERÚ</h2>
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="csi-about-content">
-                                <p class="text" style="color:#909090;">
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                                <p class="text" style="color:#000000;">
+                                    Somos los ricos Tequeños hechos en el Perú por sabores venezolanos, nacimos de un emprendiemiento familiar como aporte gastronómico a todo el sabor caribeño y peruano 
                                 </p>
                                 <br><br>
                             </div>
@@ -281,8 +281,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="csi-heading">
-                                <h3 class="subtitle tequetext" style="color: #e61d1f;">loren ipsum</h3>
-                                <h2 class="title tequetextp" style="color:#efcd5a;">Loren Ipsum is text</h2>
+                                <h3 class="subtitle tequetext" style="color: #e61d1f;">conoce</h3>
+                                <h2 class="title tequetextp" style="color:#f9ce29;">Todas nuestras delicias</h2>
                             </div>
                         </div>
                     </div>
@@ -312,7 +312,7 @@
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
                                             </div> 
                                         </div>
@@ -330,7 +330,7 @@
                                                     </p>
                                                 </div>
                                                 <p class="text">
-                                                    With chopped vegetables, served with plum sauce. Tossed in peppercorns and spiced salt
+                                                   Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae Nullam varius a felis eu dictum.
                                                 </p>
                                             </div> 
                                         </div>
@@ -586,7 +586,7 @@
                 <div class="container" >
                     <div class="row">
                         <div class="col-sm-offset-2 col-sm-8" align="center">
-                            <h2 class="tequetext" style="color: #e61d1f; font-size: 68px; margin: 40px 0px 50px;">Cont<span style="color:#efcd5a;">act</span>anos</h2>
+                            <h2 class="tequetext" style="color: #e61d1f; font-size: 68px; margin: 40px 0px 50px;">Cont<span style="color:#f9ce29;">act</span>anos</h2>
 
                             <form method="POST" class="csi-contactform" action="php/form-handler.php" novalidate="novalidate">
                                 <div class="form-group">
@@ -643,23 +643,23 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">lorenIpsum</h3>
-                                    <p class="tequetext">Magdalena lima Peru</p>
-                                    <p><a href="../../../../cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="335a5d555c734a5c4641575c5e525a5d1d505c5e">[email&#160;protegido]</a></p>
+                                    <h3 class="title tequetextp">Nuestro Local</h3>
+                                    <p class="tequetext">Av. Grau 766 </p>
+                                    <p><a class="__cf_email__">Magdalena, Lima</a></p>
                                 </div>
                             </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">lorenIpsum</h3>
-                                    <p class="tequetext">loren Ipsun text this cool</p>
-                                    <p class="tequetext">Mobile: +778529600</p>
+                                    <h3 class="title tequetextp">Llamanos</h3>
+                                     <p class="tequetext">Movil:</p>
+                                     <p class="tequetext">+51 987654321</p>
                                 </div>
                             </div> 
                             <div class="col-xs-12 col-sm-4">
                                 <div class="single">
-                                    <h3 class="title tequetextp">lorenIpsum</h3>
-                                    <p class="tequetext">Lun - Vi 11:30 - 22:00  </p>
-                                    <p class="tequetext">Sab - Dom 11:30 - 24:00  </p>
+                                    <h3 class="title tequetextp">Atención</h3>
+                                    <p class="tequetext">Lun - Vi 08:00 - 20:00 hrs  </p>
+                                    <p class="tequetext">Sab - Dom 08:00 - 20:00 hrs  </p>
                                 </div>
                             </div>
                         </div> 
@@ -669,7 +669,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12">
-                                <p>TequeCheese <i class="fa fa-copyright" aria-hidden="true"></i> - Peru  |  2018 all rights reserved by Update.pe</p>
+                                <p>TequeCheese <i class="fa fa-copyright" aria-hidden="true"></i> - Peru  2018 | diseño web <a href="https://update.pe/">Update.pe</a> </p>
                             </div>
                         </div>
                     </div>
